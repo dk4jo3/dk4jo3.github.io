@@ -27,11 +27,11 @@ a:hover {
 html,
 body {
   height: 100%;
-  background-color: #333;
+  background-color: #fff;
 }
 body {
-  color: #fff;
-  text-align: center;
+  color: #000;
+  text-align: left;
   text-shadow: 0 1px 3px rgba(0,0,0,.5);
 }
 
@@ -49,13 +49,13 @@ body {
   vertical-align: top;
 }
 .cover-container {
-  margin-right: auto;
-  margin-left: auto;
+  margin-right: 10%;
+  margin-left: 10%;
 }
 
 /* Padding for spacing */
 .inner {
-  padding: 30px;
+  padding: 0px;
 }
 
 
