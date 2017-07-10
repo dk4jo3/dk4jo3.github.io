@@ -183,15 +183,7 @@ reference jquery and css and js-->
               
             </div>
 	  
-          <div class="text-center">
-	  <a id="back-to-top" 
-	     href="#" 
-	     class="btn btn-primary btn-md back-to-top" 
-	     role="button" title="Go to top" 
-	     data-toggle="tooltip"
-	     data-placement="center">
-		  <span class="glyphicon glyphicon-chevron-up"></span></a>
-           </div>
+          
 		
 		
             <!-- note: if the footer is not center-aligned it's probably because an extra </div> somewhere --> 
@@ -232,28 +224,7 @@ reference jquery and css and js-->
     </script>
 	  
     <!-- back to top function -->
-    <script>
-	    $(document).ready(function(){
-     $(window).scroll(function () {
-            if ($(this).scrollTop() > 75) {
-                $('#back-to-top').fadeIn();
-            } else {
-                $('#back-to-top').fadeOut();
-            }
-        });
-        // scroll body to 0px on click
-        $('#back-to-top').click(function () {
-            $('#back-to-top').tooltip('hide');
-            $('body,html').animate({
-                scrollTop: 0
-            }, 800);
-            return false;
-        });
-        
-        $('#back-to-top').tooltip('show');
-
-});
-	    </script>
+    
   </body>
     
     
