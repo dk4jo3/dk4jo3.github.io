@@ -26,6 +26,9 @@
 
     <!-- Lightbox Style for this -->
     <link href="lightbox-master/dist/ekko-lightbox.min.css" rel="stylesheet">
+      
+    <!-- Scrolling Style for this -->
+    <link href="fullPage.js-master/dist/jquery.fullpage.min.css" rel="stylesheet">
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -54,7 +57,7 @@
               
               <nav>    
               <ul class="nav masthead-nav">
-                  <li class="active"><a href="#">WORKS</a></li>
+                  <li><a href="works.html">WORKS</a></li>
                   <li>/</li>
                   <li><a href="contacts.html">CONTACTS</a></li>
                   <li>/</li>
@@ -68,24 +71,25 @@
             
           <div class="inner cover">
               
+            <div class="section">  
             <div class="row page-wrapper">  
             <h4>How might we help users to understand more about their utility consumption? This project explored the possibilities of utilizing Internet of Things devices to assist homeowners to manage and be concious of their energy consumption.<br><br>I contributed the most of my time being in charge of the animation, gestural control, majority of user interface as well as interviews.<br><br></h4>
 
-            <div class="col-sm-4 outline-col">
+                <div class="col-sm-4 outline-col">
                 <ul>
                     <li><h5>RESEARCH</h5></li>
                     <li>Target Users</li>
                     <li>Experience Map</li>
                     <li>Info Arch.</li>
                 </ul></div>
-            <div class="col-sm-4 outline-col">
+                <div class="col-sm-4 outline-col">
                 <ul>
                     <li><h5>RESEARCH</h5></li>
                     <li>Target Users</li>
                     <li>Experience Map</li>
                     <li>Info Arch.</li>
                 </ul></div>
-            <div class="col-sm-4 outline-col">
+                <div class="col-sm-4 outline-col">
                 <ul>
                     <li><h5>RESEARCH</h5></li>
                     <li>Target Users</li>
@@ -93,25 +97,29 @@
                     <li>Info Arch.</li>
                 </ul></div>
               </div>
+            </div>
               
             <hr/>  
 
-            <div class="row page-wrapper">
+            <div class="section">
+              <div class="row page-wrapper">
               <div class="col-sm-6"><a href="headshot/placeholder.jpg" data-toggle="lightbox"><img class="img-responsive" src="headshot/placeholder.jpg"></a></div>
               <div class="col-sm-6">
                 <h4>Target User</h4>
                 <p>We started off narrowing down the target user groups of this application and created persona to imagine the different ways and reasons that they would possibly use the application.<br><br>We decided to focus on the ones who would benefit from this application the most and created experience map to understand their behavior as well as their wants and needs. </p></div>
             </div>
-            
+            </div>
+              
              <hr/>  
 
-            <div class="row page-wrapper">
-              <div class="col-sm-6"><a href="headshot/placeholder.jpg"><img class="img-responsive" src="headshot/placeholder.jpg"></a></div>
+            <div class="section"> 
+              <div class="row page-wrapper">
+              <div class="col-sm-6"><a href="headshot/placeholder.jpg" data-toggle="lightbox"><img class="img-responsive" src="headshot/placeholder.jpg"></a></div>
               <div class="col-sm-6">
                 <h4>Target User</h4>
                 <p>We started off narrowing down the target user groups of this application and created persona to imagine the different ways and reasons that they would possibly use the application.<br><br>We decided to focus on the ones who would benefit from this application the most and created experience map to understand their behavior as well as their wants and needs. </p></div>
             </div>
-      
+            </div>
               
               
               
@@ -144,13 +152,23 @@
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="js/ie10-viewport-bug-workaround.js"></script>
     <script src="lightbox-master/dist/ekko-lightbox.js"></script>
+    <script src="fullPage.js-master/dist/jquery.fullpage.min.js"></script>
     <script src="js/bootstrap.min.js"></script>  
-
+    
+    <!-- Lightbox Script> -->  
     <script type="text/javascript">
         $(document).on('click', '[data-toggle="lightbox"]', function(event) {
     event.preventDefault();
     $(this).ekkoLightbox();
 });
+      </script>
+      
+    <!-- Scrolling Script --> 
+    
+    <script type="text/javascript">
+        $(document).ready(function() {
+    $('#fullpage').fullpage();
+}); 
       </script>
         
   </body>
