@@ -41,10 +41,13 @@ a:hover {
 /*back to top button*/
 
 .back-to-top {
+    z-index:9999;
     cursor: pointer;
     position: fixed;
     bottom: 24px;
     display:none;
+    color: #888888;
+    background-color: transparent;
 }
 
 
