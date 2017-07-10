@@ -20,7 +20,9 @@ a:hover {
 }
 
 .img-box:hover{
-  box-shadow: 0px 2px 4px #000; 
+  -moz-box-shadow: 0 2 4px #888888;
+  -webkit-box-shadow: 0 2 4px #888888; 
+  box-shadow: 0 2 4px #888888;; 
 }
 
 /* Custom default button */
