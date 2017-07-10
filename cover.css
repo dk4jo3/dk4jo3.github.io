@@ -193,7 +193,7 @@ h2,h3,h4,h5,h6 {
     padding-top: 12px;
 }
 
-.outline > li {
+.outline > ul {
     list-style-type: none;
     padding:0;
     margin:0;
