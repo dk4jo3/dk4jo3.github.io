@@ -123,7 +123,9 @@
               
             <div class="row">
              <div class="col-sm-6">
-             <img class="img-responsive work-img" src="headshot/placeholder.jpg">
+             <a href="headshot/placeholder.jpg" data-toggle="lightbox">  
+             <img class="img-fluid work-img" src="headshot/placeholder.jpg">
+               </a>  
              </div>
              <div class="col-sm-6">
                <p class="work-subject"><strong>Subject here</strong></p>
@@ -141,16 +143,7 @@
               
             </div>
           
-            <!-- note: if the footer is not center-aligned it's probably because an extra </div> somewhere -->  
-            <!-- omit later -->      
-            <!-- <h1 class="cover-heading">Cover your page.</h1>
-            <p class="lead">Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.</p>
-                <p class="lead">
-                <a href="#" class="btn btn-lg btn-default">Learn more</a>
-            </p> -->
-        
-            
-            
+            <!-- note: if the footer is not center-aligned it's probably because an extra </div> somewhere --> 
             <!-- footer -->
 
           <div class="mastfoot">
@@ -165,7 +158,13 @@
         </div>
       </div>
 
-
+    
+    <!-- Lightbox Function-->
+    $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+    event.preventDefault();
+    $(this).ekkoLightbox();
+    });
+    
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
