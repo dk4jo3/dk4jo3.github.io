@@ -24,6 +24,9 @@
     <link href="css/works-template.css" rel="stylesheet">
 
 
+    <!-- Lightbox Style for this -->
+    <link href="lightbox-master/dist/ekko-lightbox.min.css" rel="stylesheet">
+
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
     <script src="js/ie-emulation-modes-warning.js"></script>
@@ -94,7 +97,7 @@
             <hr/>  
 
             <div class="row page-wrapper">
-              <div class="col-sm-6"><a href="headshot/placeholder.jpg"><img class="img-responsive" src="headshot/placeholder.jpg"></a></div>
+              <div class="col-sm-6"><a href="headshot/placeholder.jpg" data-toggle="lightbox"><img class="img-responsive" src="headshot/placeholder.jpg"></a></div>
               <div class="col-sm-6">
                 <h4>Target User</h4>
                 <p>We started off narrowing down the target user groups of this application and created persona to imagine the different ways and reasons that they would possibly use the application.<br><br>We decided to focus on the ones who would benefit from this application the most and created experience map to understand their behavior as well as their wants and needs. </p></div>
@@ -140,7 +143,15 @@
     <script src="js/"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="js/ie10-viewport-bug-workaround.js"></script>
+    <script src="lightbox-master/dist/ekko-lightbox.js"></script>
+    <script src="js/bootstrap.min.js"></script>  
 
+    <script type="text/javascript">
+        $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+    event.preventDefault();
+    $(this).ekkoLightbox();
+});
+      </script>
         
   </body>
 </html>
