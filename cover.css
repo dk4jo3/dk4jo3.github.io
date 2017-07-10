@@ -40,6 +40,13 @@ a:hover {
 
 /*back to top button*/
 
+.back-to-top {
+    color: #888888;
+    background-color: transparent;
+    border-stype: none;
+    cursor: pointer;
+    
+}
 
 /*
  * Base structure
