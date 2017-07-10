@@ -186,7 +186,8 @@ h2,h3,h4,h5,h6 {
 }
 
 .row {
-    margin-top: 10%}
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 .work-copy-wrapper {
