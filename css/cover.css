@@ -19,14 +19,6 @@ a:hover {
   text-decoration: none;
 }
 
-/*img hover shadow*/
-.img-box:hover,
-.img-box:focus{
-  -moz-box-shadow: 0px 1px 2px #888888;
-  -webkit-box-shadow: 0px 1px 2px #888888; 
-  box-shadow: 0px 1px 2px #888888;
-}
-
 
 /* Custom default button */
 .btn-default,
@@ -188,27 +180,6 @@ h2,h3,h4,h5,h6 {
 
 /*works template*/
 
-.work-copy{
-    text-align: left;
-    padding-top: 0px;
-}
-
-
-
-.row {
-    margin-top: 3%;
-    margin-bottom: 3%;
-}
-
-.work-copy-wrapper {
-    padding-top: 12px;
-}
-
-.outline-col > ul {
-    list-style:none;
-    padding:0;
-    margin:0;
-}
 
 /*
  * Footer
@@ -250,7 +221,7 @@ h2,h3,h4,h5,h6 {
   .masthead,
   .mastfoot,
   .cover-container {
-    width: 800px;
+    width: 1024px;
     
   }
 
