@@ -38,6 +38,16 @@ a:hover {
   border: 1px solid #fff;
 }
 
+/*back to top button*/
+
+.back-to-top {
+    cursor: pointer;
+    position: fixed;
+    bottom: 24px;
+    display:none;
+}
+
+
 
 /*
  * Base structure
