@@ -37,7 +37,7 @@ a:hover {
 html,
 body {
   font-family: Playfair display, "futura";
-  font-weight: 700;
+  font-weight: 500;
   height: 100%;
   background-color: #FFF;
 }
@@ -166,7 +166,13 @@ h2,h3,h4,h5,h6 {
     line-height: 2em;
 }
 
+.work-copy{
+    text-align: left:
+}
 
+.row {
+    margin-top: 5%}
+}
 
 /*
  * Footer
@@ -174,6 +180,7 @@ h2,h3,h4,h5,h6 {
 
 .mastfoot {
   color: #000; /* IE8 proofing */
+  font-weight: 700;
 }
 
 
