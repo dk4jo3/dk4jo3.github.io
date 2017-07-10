@@ -202,15 +202,9 @@ reference jquery and css and js-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.2.0/ekko-lightbox.min.js"></script> 
     
     <script type="text/javascript">
-    $(this).ekkoLightbox({
-    alwaysShowClose: true,
-    onShown: function() {
-        console.log('Checking our the events huh?');
-    },
-    onNavigate: function(direction, itemIndex) {
-        console.log('Navigating '+direction+'. Current item: '+itemIndex);
-    }
-    ...
+    $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+    event.preventDefault();
+    $(this).ekkoLightbox();
 });
     </script>  
   </body>
