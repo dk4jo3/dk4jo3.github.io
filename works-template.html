@@ -165,11 +165,30 @@ reference jquery and css and js-->
               
             <hr/> 
               
+ 	     <!-- video -->	  
+		  
+              <div class="row">  
+              <div class="col-sm-12">
+		      <h4>subject</h4>
+		      </div>
+		<div class="embed-responsive embed-responsive-16by9">
+ 		<iframe class="embed-responsive-item" src="#"></iframe>
+		</div>	      
               
+	      <hr/>       
+             
+              </div>  
               
               
               
             </div>
+	
+	  <a id="back-to-top" 
+	     href="#" 
+	     class="btn btn-primary btn-md back-to-top" 
+	     role="button" title="Go to top" 
+	     data-toggle="tooltip" 
+	     data-placement="center"><span class="glyphicon glyphicon-chevron-up"></span></a>
           
             <!-- note: if the footer is not center-aligned it's probably because an extra </div> somewhere --> 
             <!-- footer -->
@@ -183,11 +202,11 @@ reference jquery and css and js-->
         </div>
 
       </div>
-        </div>
+      </div>
       </div>
 
     
- 
+   
     
     <!-- Bootstrap core JavaScript
     ================================================== -->
@@ -201,25 +220,36 @@ reference jquery and css and js-->
     <!-- Lightbox Function -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.2.0/ekko-lightbox.js"></script> 
     
-    <script type="text/javascript">
-	   $(document).ready(function ($) {
-                // delegate calls to data-toggle="lightbox"
-                $(document).on('click', '[data-toggle="lightbox"]:not([data-gallery="navigateTo"])', function(event) {
-                    event.preventDefault();
-                    return $(this).ekkoLightbox({
-                        onShown: function() {
-                            if (window.console) {
-                                return console.log('Checking our the events huh?');
-                            }
-                        },
-						onNavigate: function(direction, itemIndex) {
-                            if (window.console) {
-                                return console.log('Navigating '+direction+'. Current item: '+itemIndex);
-                            }
-						}
-                    });
-                });
+    <script>
+	  $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+    event.preventDefault();
+    $(this).ekkoLightbox();
+});
     </script>
+	  
+    <!-- back to top function -->
+    <script>
+	    $(document).ready(function(){
+     $(window).scroll(function () {
+            if ($(this).scrollTop() > 50) {
+                $('#back-to-top').fadeIn();
+            } else {
+                $('#back-to-top').fadeOut();
+            }
+        });
+        // scroll body to 0px on click
+        $('#back-to-top').click(function () {
+            $('#back-to-top').tooltip('hide');
+            $('body,html').animate({
+                scrollTop: 0
+            }, 800);
+            return false;
+        });
+        
+        $('#back-to-top').tooltip('show');
+
+});
+	    </script>
   </body>
     
     
