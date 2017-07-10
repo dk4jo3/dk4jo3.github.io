@@ -20,11 +20,13 @@ a:hover {
 }
 
 /*img hover shadow*/
-.img-box:hover{
+.img-box:hover,
+.img-box:focus{
   -moz-box-shadow: 0px 1px 2px #888888;
   -webkit-box-shadow: 0px 1px 2px #888888; 
   box-shadow: 0px 1px 2px #888888;
 }
+
 
 /* Custom default button */
 .btn-default,
