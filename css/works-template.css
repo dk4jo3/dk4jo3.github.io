@@ -3,12 +3,12 @@
     list-style:none;
     text-align:center;
     padding-left:0;
+    margin-top:4vh;
 }
 
-.works-copy-content {
-    text-align:left;
-}
 
+
+/*page-wrapper*/
 .page-wrapper {
     padding:30px;
     height:100vh;
@@ -16,6 +16,15 @@
     align-items:center;
 }
 
+/* glyphicon */
+.glyphicon {
+    font-size:1.2em;
+    margin-top:4vh;
+
+}
+    
+
+/*gradient background for header*/
 .masthead {
     background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 90%, rgba(255,255,255,0) 100%); /* FF3.6-15 */
     background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(255,255,255,1) 90%,rgba(255,255,255,0) 100%); /* Chrome10-25,Safari5.1-6 */
@@ -56,4 +65,12 @@
   
 }
 
+@media (min-width: 992px) {
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 860px;
+    
+  }
+}
    
