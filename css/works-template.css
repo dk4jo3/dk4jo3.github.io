@@ -25,10 +25,12 @@
 .glyphicon {
     font-size:1.2em;
     margin-top:4vh;
+    text-align: center;
 }
 
 .glyphicon-chevron-up {
     margin-top:4vh;
+    text-align: center;
 }
 
 
@@ -56,6 +58,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
   -webkit-box-shadow: 0px 1px 2px #888888; 
   box-shadow: 0px 1px 2px #888888;
 }
+
+.img-responsive {
+    margin: 0 auto;
+}
+
 
 @media (min-width: 768px) {
   /* Pull out the header and footer */
