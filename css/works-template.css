@@ -5,11 +5,11 @@
     padding-left:0;
 }
 
-.row {
-}
+
 
 .page-wrapper {
-    height:100vh;
+    padding:30px;
+    height:80vh;
     display:flex;
     align-items:center;
 }
