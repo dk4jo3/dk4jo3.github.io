@@ -137,7 +137,7 @@
             </div>
             
           </div>
-     <a href="go-to-top"><span class="glyphicon glyphicon-chevron-up text-center"></span></a>
+     <a href="#top"><span class="glyphicon glyphicon-chevron-up text-center"></span></a>
         
             
         
@@ -185,5 +185,12 @@
     $('#fullpage').fullpage();
     }); 
   </script>
+    
+  <script type="text/javascript">
+    $("a[href='#top']").click(function() {
+  $("html, body").animate({ scrollTop: 0 }, "slow");
+  return false;
+});
+  </script>  
 </body>
 </html>
