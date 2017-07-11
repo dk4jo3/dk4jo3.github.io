@@ -2,6 +2,18 @@
 .outline-col > ul {
     list-style:none;
     text-align:center;
+    padding-left:0;
+}
+
+.row {
+    display:inline-block;
+}
+
+.page-wrapper {
+    height:100vh;
+    width:auto;
+    display: table;
+    vertical-align:middle;
 }
 
 
