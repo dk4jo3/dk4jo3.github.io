@@ -12,8 +12,8 @@
 .page-wrapper {
     padding:30px;
     height:100vh;
-    display:table-cell;
-    verticle-align: middle;
+    display:flex;
+    align-item:center;
 }
 
 .masthead {
