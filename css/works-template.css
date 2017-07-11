@@ -6,14 +6,12 @@
 }
 
 .row {
-    display:inline-block;
 }
 
 .page-wrapper {
-    height:100vh;
-    width:auto;
-    display: table;
-    vertical-align:middle;
+    height:50vh;
+    display:flex;
+    align-items:center;
 }
 
 
