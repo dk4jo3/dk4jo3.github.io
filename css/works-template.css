@@ -5,15 +5,11 @@
     padding-left:0;
 }
 
-.works-copy-content {
-    text-align:left;
-}
-
 .page-wrapper {
     padding:30px;
     height:100vh;
     display:flex;
-    align-item:center;
+    align-items:center;
 }
 
 .masthead {
