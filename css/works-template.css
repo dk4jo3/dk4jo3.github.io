@@ -5,6 +5,8 @@
     padding-left:0;
 }
 
+
+/*page-wrapper*/
 .page-wrapper {
     padding:30px;
     height:100vh;
@@ -12,9 +14,10 @@
     align-items:center;
 }
 
+/* glyphicon */
 .glyphicon {
     font-size:1.2em;
-    margin-top:20%;
+    margin-top:12vh;
 
 }
     
