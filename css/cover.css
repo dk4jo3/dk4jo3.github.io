@@ -217,9 +217,7 @@ h2,h3,h4,h5,h6 {
     width: 100%; /* Must be percentage or pixels for horizontal alignment */
   }
   
-  .cover-nav {
-    font-size: 1.6em;
-    }
+ 
 }
 
 @media (min-width: 992px) {
