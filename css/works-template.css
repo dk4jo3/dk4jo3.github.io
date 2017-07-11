@@ -20,7 +20,10 @@
 .glyphicon {
     font-size:1.2em;
     margin-top:4vh;
+}
 
+.glyphicon-chevron-up {
+    margin-top:12vh;
 }
     
 
@@ -49,7 +52,8 @@
 
   }
   .mastfoot {
-    position: relative;
+    position: fixed;
+    bottom: 0px;
 
   }
   /* Start the vertical centering 
@@ -69,7 +73,7 @@
   .masthead,
   .mastfoot,
   .cover-container {
-    width: 860px;
+    width:75vw;
     
   }
 }
