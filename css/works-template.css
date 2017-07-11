@@ -64,7 +64,24 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
 }
 
 
-@media (min-width: 768px) {
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) {
+  
+  }
+
+    /* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+
+  }
+
+    /* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+  }
+
+
+
+@media only screen and (min-width: 768px) {
   /* Pull out the header and footer */
   .masthead {
     position: fixed;
@@ -74,8 +91,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
   .mastfoot {
     position: fixed;
     bottom: 0px;
-
   }
+    
+    
   /* Start the vertical centering 
   .site-wrapper-inner {
     vertical-align: middle;
@@ -86,14 +104,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
   .cover-container {
     width: 100%; /* Must be percentage or pixels for horizontal alignment */
     }
-  
 }
 
 @media (min-width: 992px) {
   .masthead,
   .mastfoot,
   .cover-container {
-    width:75vw;
+    width:72vw;
     
   }
 }
