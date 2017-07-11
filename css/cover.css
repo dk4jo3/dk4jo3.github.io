@@ -163,7 +163,6 @@ h2,h3,h4,h5,h6 {
 .cover-nav {
     font-weight: 900;
     color: #888;
-    font-size: 1.4em;
     margin-top: 5%;
     line-height: 2em;
 }
@@ -216,6 +215,10 @@ h2,h3,h4,h5,h6 {
   .cover-container {
     width: 100%; /* Must be percentage or pixels for horizontal alignment */
   }
+  
+  .cover-nav {
+    font-size: 1.6em;
+    }
 }
 
 @media (min-width: 992px) {
