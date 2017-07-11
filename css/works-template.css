@@ -26,7 +26,8 @@
 @media (min-width: 768px) {
   /* Pull out the header and footer */
   .masthead {
-    position: relative;
+    position: fixed;
+    top: 0px;
 
   }
   .mastfoot {
