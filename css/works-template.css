@@ -5,7 +5,9 @@
     padding-left:0;
 }
 
-
+.works-copy-content {
+    text-align:left;
+}
 
 .page-wrapper {
     padding:30px;
