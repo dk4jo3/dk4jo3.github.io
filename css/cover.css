@@ -161,6 +161,7 @@ h2,h3,h4,h5,h6 {
 }
 
 .cover-nav {
+    font-size: 2.4em;
     font-weight: 900;
     color: #888;
     margin-top: 5%;
@@ -228,9 +229,5 @@ h2,h3,h4,h5,h6 {
     width: 1024px;
     
   }
-
-    .cover-nav {
-        font-size: 2.4em;
-    }    
     
 }
