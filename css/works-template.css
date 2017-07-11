@@ -1,4 +1,4 @@
-
+/*outline*/
 .outline-col > ul {
     list-style:none;
     text-align:center;
@@ -7,10 +7,15 @@
 }
 
 
+/*project logo*/
+.project-logo {
+    margin-bottom:12%;
+}
+
 
 /*page-wrapper*/
 .page-wrapper {
-    padding:30px;
+    padding:24px;
     height:100vh;
     display:flex;
     align-items:center;
@@ -23,7 +28,7 @@
 }
 
 .glyphicon-chevron-up {
-    margin-top:12vh;
+    margin-top:4vh;
 }
     
 
