@@ -71,14 +71,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
 
     /* Extra Small Devices, Phones */ 
 @media only screen and (min-width : 480px) {
-
+    
+    .project-logo,
+    outline-col{
+    display:none;}
   }
-
-    /* Small Devices, Tablets */
-@media only screen and (min-width : 768px) {
-
-  }
-
 
 
 @media only screen and (min-width: 768px) {
