@@ -37,6 +37,7 @@
      background:url("img/project-logo/project-logo2.png");
      background-position: center;
      background-repeat: no-repeat;
+     background-size: 60vh 60vh;
 }
     
   </style>
@@ -83,7 +84,7 @@
             <div id="fullpage" class="section-wrapper">
                 
               <!--intro-->    
-            <div class="section" data-anchor="top">
+            <div class="section fp-auto-height-responsive" data-anchor="top">
               <div class="page-wrapper intro background">
                 <div>
                     <div class="row">
@@ -142,7 +143,7 @@
                 </div>
                 
               <!--image+text-->    
-             <div class="section">
+             <div class="section fp-auto-height-responsive">
               <div class="page-wrapper">
                 <div>
                   <div class="row">
@@ -162,7 +163,7 @@
             </div>
               
               <!--carousel+text-->    
-             <div class="section">
+             <div class="section fp-auto-height-responsive">
               <div class="page-wrapper">
                 <div>
                   <div class="row">
@@ -182,7 +183,7 @@
             </div>
                 
               <!--image+image-->    
-              <div class="section">
+              <div class="section fp-auto-height-responsive">
               <div class="page-wrapper">
                 <div>
                   <div class="row">
@@ -202,7 +203,7 @@
             </div>
              
               <!--icon w/ text-->    
-              <div class="section">
+              <div class="section fp-auto-height-responsive">
               <div class="page-wrapper">
                 <div>
                     
@@ -266,7 +267,7 @@
             </div>
                 
              <!--video-->      
-             <div class="section">
+             <div class="section fp-auto-height-responsive">
               <div class="page-wrapper">
                 <div>
                     <div class="embed-responsive embed-responsive-16by9 col-sm-10 col-sm-offset-1">
@@ -278,7 +279,7 @@
            
                 
              <!--image+text with go-to-top-->  
-             <div class="section">
+             <div class="section fp-auto-height-responsive">
                  
                 <div class="row">
                  <div class="col-sm-12">
@@ -295,9 +296,7 @@
                 </div>
          
             </div>
-                
-        <div id="width-indicator">
-        </div>    
+                  
         </div>    
             
         
@@ -373,9 +372,12 @@
     $(function() {
   $(window).resize(function () {
     if (window.innerWidth < 768) {
+        
       $(".intro").removeClass("background");
     } 
+      
       else {
+          
       $(".intro").addClass("background");
     }
   });
