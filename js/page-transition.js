@@ -18,3 +18,6 @@ $(document).ready(
     }
 });
  
+//add transition class to all links. 
+
+$("[href]").addClass("transition");
