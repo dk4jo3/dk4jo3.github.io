@@ -355,8 +355,9 @@
   <!-- Scrolling Script --> 
   <script type="text/javascript">
     $(document).ready(function() {
-      $('#fullpage').fullpage({
-          scrollingSpeed:480});
+      $('#fullpage').fullpage(
+          {scrollingSpeed:480,
+          responsiveWidth:768});
     });
   </script>
   
@@ -364,19 +365,20 @@
   <!-- fade transition -->
   <script src="js/page-transition.js"></script>
     
+    
+  <!-- background disable-->    
   <script type="text/javascript">
     $(function() {
   $(window).resize(function () {
     if (window.innerWidth < 768) {
       $(".intro").removeClass("background");
-      $(".section-wrapper").removeAttr("id");
     } 
       else {
       $(".intro").addClass("background");
-      $(".section-wrapper").prop("id", "fullpage");
     }
   });
-});</script>
+});
+    </script>
 
 </body>
 
