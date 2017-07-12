@@ -215,7 +215,7 @@ h2,h3,h4,h5,h6 {
   }
   .mastfoot {
     position: fixed;
-    bottom: 0;
+    bottom: -24px;
   }
   /* Start the vertical centering */
   .site-wrapper-inner {
