@@ -24,12 +24,17 @@ $("a[target!='_blank']").not(document.getElementByClass("go-to-top")).addClass( 
                              
 //fullpage remove id="fullpage" 
 
-if ($(window).width() < 720) {
-   $("#.intro").removeClass( "intro" );
-   $("#fullpage").removeClass( "fullpage" ) ;
-}
-else {
-}
+$(function() {
+  $(window).resize(function () {
+    if (window.innerWidth < 720) {
+      $(".intro").removeClass("background");
+      $("#fullpage-wrapper").removeAttr("id");
+    } else {
+      $(".intro").addClass("showMenu");
+      $("#fullpage-wrapper").attr("id", "fullpage");
+    }
+  });
+});
 
 
 //disable scroll and background for responsive 
