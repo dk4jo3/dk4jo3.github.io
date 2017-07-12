@@ -3,12 +3,9 @@
  */
 
 /* font */ 
-
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900');
 
 /* Links */
-
-
 a {
     color:#888888;
 }
@@ -81,9 +78,7 @@ body {
 }
 
 
-/*
- * Header
- */
+/* h elements */
 
 h3 {
     font-family: playfair display;
@@ -96,8 +91,7 @@ h2,h3,h4,h5,h6 {
     line-height: 1.4em;
 }
 
-
-
+/* Header */
 .masthead-brand {
   margin-top: 0px;
   margin-bottom: 10px;
@@ -142,9 +136,7 @@ h2,h3,h4,h5,h6 {
 }
 
 
-/*
- * Cover
- */
+/* Cover */
 
 .cover {
   padding: 0 20px;
@@ -178,12 +170,9 @@ h2,h3,h4,h5,h6 {
     line-height: 1.8em;
 }
 
-/*works template*/
 
 
-/*
- * Footer
- */
+/* Footer */
 
 .mastfoot {
   color: #000; /* IE8 proofing */
@@ -192,28 +181,33 @@ h2,h3,h4,h5,h6 {
 }
 
 
-/*
- * Affix and center
- */
+/*               *\
+   MEDIA QUERIES
+\*               */ 
 
-
-/* Custom, iPhone Retina */ 
+/* viewport 320px and above*/
 @media only screen and (min-width : 320px) {
   
   }
 
-    /* Extra Small Devices, Phones */ 
+
+/* viewport 480px and above*/
 @media only screen and (min-width : 480px) {
 
   }
 
-    /* Small Devices, Tablets */
-@media only screen and (min-width : 768px) {
 
-  }
-
-
+/* viewport 768px and above*/
 @media only screen and (min-width: 768px) {
+ 
+ /*brand and nav float*/   
+  .masthead-brand {
+    float: left;
+  }
+  .masthead-nav {
+    float: right;
+  }   
+    
   /* Pull out the header and footer */
   .masthead {
     position: fixed;
