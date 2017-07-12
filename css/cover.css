@@ -157,7 +157,7 @@ h6 {
 /*works, blogs, and contacts*/
 
 .content-list {
-    font-weight: 700;
+    font-weight: 500;
     color: #888;
     font-size: 1.4em;
     line-height: 1.8em;
@@ -178,11 +178,11 @@ h6 {
 
 @media only screen and (min-width: 320px) {
     .content-list {
-        font-size: 1em;
-        line-height: 2.4em;
+        font-size: 1.2em;
+        line-height: 2em;
     }
     .masthead-nav > li > a {
-        font-size: 1.2em;
+        font-size: 1 em;
     }
     .mastfoot {
         font-size: 0.7em;
