@@ -20,9 +20,16 @@ $(document).ready(
  
 //add transition class to all links. 
 
-$("a[target!='_blank']").not(document.getElementByClass("go-to-top").addClass( "transition" );
+$("a[target!='_blank']").not(document.getElementByClass("go-to-top")).addClass( "transition" );
                              
-//fullpage
+//fullpage remove id="fullpage" 
+
+if ($(window).width() < 720) {
+   $("#.intro").removeClass( "intro" );
+   $("#fullpage").removeClass( "fullpage" ) ;
+}
+else {
+}
 
 
 //disable scroll and background for responsive 
