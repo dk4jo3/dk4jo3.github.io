@@ -27,6 +27,12 @@
     text-align: center;
 }
 
+/*icon+text*/
+
+.v-align {
+    display:flex;
+    align-items:center;
+}
 
 
 /*gradient background for header & footer*/
