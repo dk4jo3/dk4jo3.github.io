@@ -175,7 +175,7 @@ h2,h3,h4,h5,h6 {
     font-weight: 700;
     color: #888;
     font-size: 1.4em;
-    line-height: 1.6em;
+    line-height: 1.8em;
 }
 
 /*works template*/
@@ -188,7 +188,7 @@ h2,h3,h4,h5,h6 {
 .mastfoot {
   color: #000; /* IE8 proofing */
   font-weight: 700;
-  font-size: 1em;
+  font-size: 0.8em;
 }
 
 
@@ -197,7 +197,23 @@ h2,h3,h4,h5,h6 {
  */
 
 
-@media (min-width: 768px) {
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) {
+  
+  }
+
+    /* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+
+  }
+
+    /* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+  }
+
+
+@media only screen and (min-width: 768px) {
   /* Pull out the header and footer */
   .masthead {
     position: fixed;
@@ -219,7 +235,7 @@ h2,h3,h4,h5,h6 {
   }
 }
 
-@media screen and (min-width: 992px) {
+@media only screen and (min-width: 992px) {
   .masthead,
   .mastfoot,
   .cover-container {
