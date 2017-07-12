@@ -8,10 +8,12 @@
 
 
 /*project logo*/
-.project-logo {
-    margin-bottom:12%;
-}
 
+.intro {
+    background-img: url("img/project-logo/project-logo2.png");
+    background-position: center;
+    
+}
 
 /*page-wrapper*/
 .page-wrapper {
