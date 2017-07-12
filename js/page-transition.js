@@ -21,3 +21,9 @@ $(document).ready(
 //add transition class to all links. 
 
 $("a[target!='_blank']").not(document.getElementByClass("go-to-top").addClass( "transition" );
+                             
+//fullpage
+
+
+//disable scroll and background for responsive 
+                             
