@@ -5,12 +5,12 @@ $(document).ready(
     function() {
     $("body").css("display", "none");
  
-    $("body").fadeIn(2000);
+    $("body").fadeIn(1000);
  
     $("a.transition").click(function(event){
         event.preventDefault();
         linkLocation = this.href;
-        $("body").fadeOut(2000, redirectPage);      
+        $("body").fadeOut(1000, redirectPage);      
     });
          
     function redirectPage() {
@@ -20,4 +20,4 @@ $(document).ready(
  
 //add transition class to all links. 
 
-$("[href]").addClass("transition");
+$("a[target!='_blank']").addClass( "transition" );
