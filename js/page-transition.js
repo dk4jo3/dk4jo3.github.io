@@ -5,12 +5,12 @@ $(document).ready(
     function() {
     $(".cover").css("display", "none").return;
  
-    $(".cover").fadeIn(4000);
+    $(".cover").fadeIn(1200);
  
     $("a.transition").click(function(event){
         event.preventDefault();
         linkLocation = this.href;
-        $(".cover").fadeOut(4000, redirectPage);      
+        $(".cover").fadeOut(1200, redirectPage);      
     });
          
     function redirectPage() {
