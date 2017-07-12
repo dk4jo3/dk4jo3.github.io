@@ -187,18 +187,64 @@ h2,h3,h4,h5,h6 {
 
 /* viewport 320px and above*/
 @media only screen and (min-width : 320px) {
-  
+ 
+     .content-list {
+        font-size: 1em;
+        line-height: 2.4em;
+    }
+    
+    .masthead > nav > li > a {
+        font-size: 1.2em;
+    }
+    
+    .mastfoot {
+        font-size: 0.7em;
+    }
+    .cover-nav {
+        font-size: 1.6em;
+    }  
   }
+
 
 
 /* viewport 480px and above*/
 @media only screen and (min-width : 480px) {
 
+    .content-list {
+        font-size: 1.2em;
+    }
+    
+    .masthead > nav > li > a {
+        font-size: 1.4em;
+    }
+    
+    .mastfoot {
+        font-size: 0.8em;
+    }
+    .cover-nav {
+        font-size: 2em;
+    }
+    
   }
 
 
 /* viewport 768px and above*/
 @media only screen and (min-width: 768px) {
+    
+    
+    
+    .content-list {
+        font-size: 1.6em;
+    }
+    
+    
+    .mastfoot {
+        font-size: 0.8em;
+    }
+    
+    .cover-nav {
+        font-size: 2.4em;
+    }
  
  /*brand and nav float*/   
   .masthead-brand {
