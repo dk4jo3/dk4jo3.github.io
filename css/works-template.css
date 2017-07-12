@@ -72,30 +72,34 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
 /* viewport 320px and above*/
 @media only screen and (min-width : 320px) {
     
-    .content-list {
+   
+    .masthead-nav > li > a {
         font-size: 1em;
-        line-height: 2.4em;
     }
-    
-    .masthead > nav > li > a {
-        font-size: 1.2em;
-    }
-    
+
     .mastfoot {
         font-size: 0.7em;
     }
+    
+    .page-wrapper {
+        height: auto;
+    }
+    
+    .masthead {
+        position: relative;
+    }
   
+    .outline-col > ul {
+        display: none;
+    }
   }
 
 
 /* viewport 480px and above*/
 @media only screen and (min-width : 480px) {
 
-    .content-list {
-        font-size: 1.2em;
-    }
     
-    .masthead > nav > li > a {
+    .masthead-nav > li > a {
         font-size: 1.4em;
     }
     
@@ -110,6 +114,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
 /* viewport 768px and above*/
 @media only screen and (min-width: 768px) {
   /* Pull out the header and footer */
+    
+    .outline-col > ul {
+        display: inherit
+    }
+    
+    .page-wrapper {
+    height: 100vh;
+    }  
+    
   .masthead {
     position: fixed;
     top: 0px;
