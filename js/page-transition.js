@@ -3,9 +3,9 @@
 $(document).ready(
     
     function() {
-    $(".cover").css("display", "none");
+    $("body").css("display", "none");
  
-    $(".cover").fadeIn(1200);
+    $("body").fadeIn(1200);
  
     $("a.transition").click(function(event){
         event.preventDefault();
