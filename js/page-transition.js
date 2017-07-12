@@ -20,4 +20,4 @@ $(document).ready(
  
 //add transition class to all links. 
 
-$("a[target!='_blank']").addClass( "transition" );
+$("a[target!='_blank']").not(document.getElementByClass("go-to-top)).addClass( "transition" );
