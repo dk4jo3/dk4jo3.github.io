@@ -80,10 +80,10 @@
 
         <div class="cover">
             
-            <div id="fullpage" class="fullpage-wrapper">
+            <div id="fullpage" class="section-wrapper">
                 
               <!--intro-->    
-              <div class="section" data-anchor="top">
+            <div class="section" data-anchor="top">
               <div class="page-wrapper intro background">
                 <div>
                     <div class="row">
@@ -270,7 +270,7 @@
               <div class="page-wrapper">
                 <div>
                     <div class="embed-responsive embed-responsive-16by9 col-sm-10 col-sm-offset-1">
-                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ZrAixIpZM24"></iframe>
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/MWZiKbWcVVQ"></iframe>
                     </div>
                 </div>
                 </div>
@@ -352,7 +352,7 @@
   
   
   
-  Scrolling Script 
+  <!-- Scrolling Script --> 
   <script type="text/javascript">
     $(document).ready(function() {
       $('#fullpage').fullpage({
@@ -363,6 +363,20 @@
   
   <!-- fade transition -->
   <script src="js/page-transition.js"></script>
+    
+  <script type="text/javascript">
+    $(function() {
+  $(window).resize(function () {
+    if (window.innerWidth < 768) {
+      $(".intro").removeClass("background");
+      $(".section-wrapper").removeAttr("id");
+    } 
+      else {
+      $(".intro").addClass("background");
+      $(".section-wrapper").prop("id", "fullpage");
+    }
+  });
+});</script>
 
 </body>
 

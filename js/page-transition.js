@@ -22,20 +22,4 @@ $(document).ready(
 
 $("a[target!='_blank']").not(document.getElementByClass("go-to-top")).addClass( "transition" );
                              
-//fullpage remove id="fullpage" 
-
-$(function() {
-  $(window).resize(function () {
-    if (window.innerWidth < 720) {
-      $(".intro").removeClass("background");
-      $("#fullpage-wrapper").removeAttr("id");
-    } else {
-      $(".intro").addClass("showMenu");
-      $("#fullpage-wrapper").attr("id", "fullpage");
-    }
-  });
-});
-
-
-//disable scroll and background for responsive 
                              
