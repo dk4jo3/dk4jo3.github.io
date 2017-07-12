@@ -188,51 +188,13 @@ h2,h3,h4,h5,h6 {
 .mastfoot {
   color: #000; /* IE8 proofing */
   font-weight: 700;
-  font-size: 0.8em;
+  font-size: 1em;
 }
 
 
 /*
  * Affix and center
  */
-
-
-/* Custom, iPhone Retina */ 
-@media screen and (min-width : 320px) {
-
-    .cover-nav { 
-        font-size:1.2em;
-    }
-    
-    .nav {
-        font-size: 0.7em;
-    }
-    
-    .content-list {
-        font-size: 1em;
-    }
-  }
-
-
-
-    /* Extra Small Devices, Phones */ 
-@media screen and (min-width : 480px) {
-    
-    .cover-nav { 
-        font-size:2em;
-    }
-    
-    .nav {
-        font-size: 1em;
-    }
-    
-    .content-list {
-        font-size: 1.2em;
-    }
-  }
-
-  }
-
 
 
 @media (min-width: 768px) {
