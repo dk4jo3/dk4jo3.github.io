@@ -79,9 +79,9 @@
                 <div class="col-sm-12 cover-nav">
             
             <p>
-                <a href="works.html">WORKS&nbsp</a>&nbsp;/&nbsp;
-                <a href="contacts.html">CONTACTS</a><span>&nbsp;/&nbsp;</span> 
-                <a href="blogs.html">BLOGS</a>
+                <a href="works.html" class="transition">WORKS&nbsp</a>&nbsp;/&nbsp;
+                <a href="contacts.html" class="transition">CONTACTS</a><span>&nbsp;/&nbsp;</span> 
+                <a href="blogs.html" class="transition">BLOGS</a>
                 </p>    
              </div>    
             </div>
@@ -120,7 +120,29 @@
     <script src="js/"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="js/ie10-viewport-bug-workaround.js"></script>
-          <script src="js/bootstrap.min.js"></script>  
+    <script src="js/bootstrap.min.js"></script>  
+    
+    
+    <!-- fade transition -->
+    <script type="text/javascript">
+$(document).ready(
+    
+    function() {
+    $("body").css("display", "none");
+ 
+    $("body").fadeIn(2000);
+ 
+    $("a.transition").click(function(event){
+        event.preventDefault();
+        linkLocation = this.href;
+        $("body").fadeOut(2000, redirectPage);      
+    });
+         
+    function redirectPage() {
+        window.location = linkLocation;
+    }
+});
+    </script>
 
   </body>
 </html>
