@@ -90,7 +90,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
   }
   .mastfoot {
     position: fixed;
-    bottom: 0px;
+    bottom: -24px;
   }
     
     
