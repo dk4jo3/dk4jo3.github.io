@@ -29,11 +29,10 @@
 
 /*icon+text*/
 
-.v-align {
-    display:flex;
-    align-items:center;
-    margin-top:2%;
+.icon-copy {
+top-margin:2vh;
 }
+
 
 
 /*gradient background for header & footer*/
