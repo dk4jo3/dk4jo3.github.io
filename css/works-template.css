@@ -46,7 +46,7 @@
 
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
-  max-height: 400px !importatn;    /* Set slide height here */
+  max-height: 400px !important;    /* Set slide height here */
 
 }
 
