@@ -44,10 +44,11 @@
     max-height: 60vh; !important
 }
 
-.carousel-control {
-    background: none; !important 
-}
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  max-height: 400px !importatn;    /* Set slide height here */
 
+}
 
 /*gradient background for header & footer*/
 .masthead {
