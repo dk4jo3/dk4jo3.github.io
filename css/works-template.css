@@ -37,6 +37,16 @@
     margin:2vh !important;
 }
 
+/*carouse*/
+
+#myCarousel.carousel.slide {
+    width: auto; 
+    max-height: 60vh; !important
+}
+
+.carousel-control {
+    background: none; !important 
+}
 
 
 /*gradient background for header & footer*/
