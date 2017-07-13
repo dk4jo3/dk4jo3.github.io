@@ -6,7 +6,8 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900');
 /* Links */
 
-a {
+a { 
+    text-shadow: 1px 1px 2px #222222;
     color: #888888;
 }
 a:focus,
