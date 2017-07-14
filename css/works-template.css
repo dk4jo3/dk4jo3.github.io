@@ -27,6 +27,15 @@
     text-align: center;
 }
 
+/*image+text*/
+
+.section > ul {
+    list-style:none;
+    text-align:left;
+    padding-left:0;
+    margin-top:.6vh;
+}
+
 /*icon+text*/
 
 .icon-copy {
