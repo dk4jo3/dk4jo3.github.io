@@ -29,7 +29,7 @@
 
 /*image+text*/
 
-.section > ul {
+.content-copy > ul {
     list-style:none;
     text-align:left;
     padding-left:0;
