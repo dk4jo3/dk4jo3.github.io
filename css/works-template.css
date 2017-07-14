@@ -38,6 +38,8 @@
 
 .content-copy > ul > li {
     margin-top: 0.4em;
+    list-style: initial;
+
 }
 
 /*icon+text*/
