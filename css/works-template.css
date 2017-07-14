@@ -36,6 +36,10 @@
     margin-top:.6vh;
 }
 
+.content-copy > li {
+    margin-top: 0.4em;
+}
+
 /*icon+text*/
 
 .icon-copy {
