@@ -42,6 +42,10 @@
 
 }
 
+.content-copy > ol > li {
+    text-align: left;
+}
+
 /*icon+text*/
 
 .icon-copy {
