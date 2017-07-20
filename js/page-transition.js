@@ -2,9 +2,7 @@
 
 $(document).ready(
     
-    function() {
-    $(".cover").css("display", "none").return;
- 
+    function() { 
     $(".cover").fadeIn(800);
  
     $("a.transition").click(function(event){

@@ -54,6 +54,10 @@ body {
 }
 /* Extra markup and styles for table-esque vertical and horizontal centering */
 
+.cover {
+    display:none;
+}
+
 .site-wrapper {
     display: table;
     width: 100%;
