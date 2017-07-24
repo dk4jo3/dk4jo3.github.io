@@ -46,6 +46,10 @@
     text-align: left;
 }
 
+strong {
+    margin-left: 0px;
+}
+
 /*icon+text*/
 
 .icon-copy {
