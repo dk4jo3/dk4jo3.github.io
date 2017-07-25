@@ -3,7 +3,7 @@
 $(document).ready(
     
     function() {
- -    $(".cover").css("display", "none").return;
+    $(".cover").css("display", "none").return;
     
     function()  
     $(".cover").fadeIn(600);
