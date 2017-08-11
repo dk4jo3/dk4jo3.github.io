@@ -15,6 +15,11 @@
     align-items:center;
 }
 
+.row {
+  display: flex;
+  align-items: center;
+}
+
 /* glyphicon */
 .glyphicon {
     font-size:1.2em;
