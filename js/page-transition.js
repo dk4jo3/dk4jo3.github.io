@@ -6,7 +6,7 @@ $(document).ready(
     $(".cover").css("display", "none").return;
     
     function()  
-    $(".cover").fadeIn(600);
+    $(".cover").fadeIn(500);
  
     $("a.transition").click(function(event){
         event.preventDefault();
