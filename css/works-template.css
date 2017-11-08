@@ -15,9 +15,13 @@
     align-items:center;
 }
 
+
 .row {
-  display: flex;
   align-items: center;
+}
+
+.block {
+    display: inline-block;
 }
 
 /* glyphicon */

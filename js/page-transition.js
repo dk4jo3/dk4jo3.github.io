@@ -6,7 +6,7 @@ $(document).ready(
     $(".cover").css("display", "none").return;
     
     function()  
-    $(".cover").fadeIn(10);
+    $(".cover").fadeIn(600);
  
     $("a.transition").click(function(event){
         event.preventDefault();
@@ -23,4 +23,12 @@ $(document).ready(
 
 $("a[target!='_blank']").not(document.getElementByClassName("go-to-top")).addClass( "transition" );
                              
-                             
+//scroll
+
+$(document).ready(
+    function() {
+        $('#fullpage').fullpage({
+          scrollingSpeed: 250,
+          responsiveWidth: 768
+        });
+      });
