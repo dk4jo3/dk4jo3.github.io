@@ -17,12 +17,10 @@
 
 
 .row {
+  display: flex;
   align-items: center;
 }
 
-.block {
-    display: inline-block;
-}
 
 /* glyphicon */
 .glyphicon {
@@ -62,12 +60,9 @@ strong {
 /*icon+text*/
 
 .icon-copy {
-    margin-top:5vh;
+    margin-top:4vh;
 }
 
-.icon {
-    margin:1vh !important;
-}
 
 
 /*gradient background for header & footer*/
@@ -122,6 +117,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
     .outline-col > ul {
         display: none;
     }
+    
+    .row {
+        display: initial;
+        align-items: center;
+    }
+    
+    .icon {
+        width: 10vh;
+        margin: auto;
+    }
   }
 
 
@@ -136,8 +141,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
     .mastfoot {
         font-size: 0.8em;
     }
-      
     
+    .row {
+        display: flex;
+        align-items: center;
+    }
+    
+    .icon {
+        margin: 2vh;
+    }
   }
 
 
