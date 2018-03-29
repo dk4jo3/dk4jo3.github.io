@@ -21,7 +21,8 @@
   align-items: center;
 }
 
-.intro h4 {
+.intro h4,
+.intro h7 {
     text-align: left;
 }
 
