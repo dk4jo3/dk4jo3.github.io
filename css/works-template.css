@@ -21,6 +21,9 @@
   align-items: center;
 }
 
+.intro h4 {
+    text-align: left;
+}
 
 /* glyphicon */
 .glyphicon {
