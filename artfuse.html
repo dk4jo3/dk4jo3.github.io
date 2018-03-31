@@ -40,14 +40,7 @@
     <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>embed 
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-    <style type="text/css">
-      .background {
-      background: url("img/project-logo/project-logo2.png");
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: 60vh 60vh;
-      }
-    </style>
+    
   </head>
   <body>
     <div class="site-wrapper">
@@ -538,22 +531,6 @@ As the platform has not yet prepared to launch its mobile application, the curre
         $('#fullpage').fullpage({
           scrollingSpeed: 600,
           responsiveWidth: 768
-        });
-      });
-    </script>
-    <!-- fade transition -->
-    <script src="js/page-transition.js"></script>
-    <!--background responsive-->
-    <script type="text/javascript">
-      $(function() {
-        $(window).resize(function() {
-          if (window.innerWidth < 768) {
-      
-            $(".intro").removeClass("background");
-          } else {
-      
-            $(".intro").addClass("background");
-          }
         });
       });
     </script>
