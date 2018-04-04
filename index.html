@@ -93,9 +93,14 @@
                 <a href="contact.html" class="transition">CONTACT</a><span>&nbsp;/&nbsp;</span> 
                 <a href="blog.html" class="transition">BLOG</a>
                 </p>    
-             </div>    
+             </div>
+              </div>
+            <div class="row">
+            <div class="col-sm-12 feeling-lucky">
+                <button class="astext" onclick="randomlinks()">FEELIN' LUCKY?</button>
+                </div>
             </div>
-            </div>
+       
           
 
           <div class="mastfoot">
@@ -121,8 +126,23 @@
     <script src="js/ie10-viewport-bug-workaround.js"></script>
     <script src="js/bootstrap.min.js"></script>  
     
-    <!-- fade transition -->
-    <script src="js/page-transition.js"></script>  
+    <!-- I am feeling lucky -->
+    <script type="text/javascript">
+    function randomlinks(){
+    var myrandom=Math.round(Math.random()*7)
+    var links=new Array()
+    links[0]="http://www.kenchendesign.com/volu.html"
+    links[1]="http://www.kenchendesign.com/habeo.html"
+    links[2]="http://www.kenchendesign.com/medtrack.html"
+    links[3]="http://www.kenchendesign.com/artfuse.html"
+    links[4]="http://www.kenchendesign.com/healthnic.html"
+    links[5]="http://www.kenchendesign.com/safezone.html"
+    links[6]="http://www.kenchendesign.com/contact.html"
+    links[7]="http://www.kenchendesign.com/blog.html" 
+    window.location=links[myrandom]
+    }
+</script>  
+    
    
 
     
