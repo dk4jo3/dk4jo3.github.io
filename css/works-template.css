@@ -1,9 +1,21 @@
+/*header*/
+
+.header h1 {
+    font-weight: 900;
+}
+
+.header {
+    margin-bottom: 3vh;
+}
+
+
+
 /*outline*/
 .outline-col > ul {
     list-style:none;
     text-align:center;
     padding-left:0;
-    margin-top:1vh;
+    margin-top:3vh;
 }
 
 
@@ -21,9 +33,9 @@
   align-items: center;
 }
 
-.intro h4,
-.intro h7 {
-    text-align: left;
+
+.toc {
+    margin-top: 5vh;
 }
 
 /* glyphicon */
