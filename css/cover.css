@@ -2,6 +2,8 @@
  * Globals
  */
 
+.cover-nav > p {margin: 0}
+
 /* font */
 
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900');
@@ -37,7 +39,6 @@ a:hover {
     background:none;
     border:none;
     line-height: 1.6em;
-    margin-top: 3%;
 }
 
 .astext:hover {
