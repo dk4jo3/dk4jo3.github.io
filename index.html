@@ -82,20 +82,26 @@
               </div> -->      
               <div class="row">   
             <div class="col-sm-12 description">
-            <h3>I like to design stuff and eat food that I have never tried before. <br><br>Recent Syracuse University, Industrial and Interaction Design grad with UX/UI Design and Design Research focus. <br>From South Taiwan, born and raised.<br><br>Shia Labeouf is my spirit animal. Norm Kelly is my role model. Pun jokes are the light of my life.</h3>
+            <h4>I like to design stuff and eat food that I have never tried before. <br><br>Recent Syracuse University, Industrial and Interaction Design grad with UX/UI Design and Design Research focus. <br>From South Taiwan, born and raised.<br><br>Shia Labeouf is my spirit animal. Norm Kelly is my role model. Pun jokes are the light of my life.</h4>
             </div>
               </div>
               <div class="row">
-                <div class="col-sm-12 cover-nav">
+                <div class="col-sm-12 cover-nav ">
             
             <p>
-                <a href="http://www.kenchendesign.com/work" class="transition">WORK</a>&nbsp;/&nbsp;
-                <a href="http://www.kenchendesign.com/contact" class="transition">CONTACT</a><span>&nbsp;/&nbsp;</span> 
-                <a href="http://www.kenchendesign.com/blog" class="transition">BLOG</a>
+                <a href="http://www.kenchendesign.com/work">WORK</a>&nbsp;/&nbsp;
+                <a href="http://www.kenchendesign.com/contact">CONTACT</a><span>&nbsp;/&nbsp;</span> 
+                <a href="http://www.kenchendesign.com/blog">BLOG</a>
                 </p>    
              </div>
-              </div>            
+              </div>   
+              <div class="row"><h4>or</h4></div>
               <div class="row">
+            <div class="col-sm-12 feeling-lucky">
+                <button class="astext" 
+                        onclick="randomlinks(); gtag('event', 'btn-clicked', {'event_category': 'index-btn', 'event_label': 'feeling-lucky',})">
+                    VIEW A RANDOM PROJECT</button>
+                </div>
             </div>
        
           
@@ -128,13 +134,13 @@
     function randomlinks(){
     var myrandom=Math.round(Math.random()*6)
     var links=new Array()
-    links[0]="http://www.kenchendesign.com/volu.html"
-    links[1]="http://www.kenchendesign.com/habeo.html"
-    links[2]="http://www.kenchendesign.com/medtrack.html"
-    links[3]="http://www.kenchendesign.com/artfuse.html"
-    links[4]="http://www.kenchendesign.com/healthnic.html"
-    links[5]="http://www.kenchendesign.com/safezone.html"
-    links[6]="http://www.kenchendesign.com/thesis-website.html"
+    links[0]="http://www.kenchendesign.com/volu"
+    links[1]="http://www.kenchendesign.com/habeo"
+    links[2]="http://www.kenchendesign.com/medtrack"
+    links[3]="http://www.kenchendesign.com/artfuse"
+    links[4]="http://www.kenchendesign.com/healthnic"
+    links[5]="http://www.kenchendesign.com/safezone"
+    links[6]="http://www.kenchendesign.com/thesis-website"
         window.location=links[myrandom]
     }
 </script>  

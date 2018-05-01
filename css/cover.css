@@ -36,7 +36,8 @@ a:hover {
     color: #888;
     background:none;
     border:none;
-    margin-top:  5%
+    line-height: 1.6em;
+    margin-top: 3%;
 }
 
 .astext:hover {
@@ -168,7 +169,7 @@ h6 {
 }
 .description {
     font-weight: 700;
-    font-size: 1.8em;
+    font-size: 1.2em;
     text-align: center;
 }
 .cover-nav {
