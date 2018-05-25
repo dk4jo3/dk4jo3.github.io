@@ -186,12 +186,12 @@ h5 {
 .cover-nav {
     font-weight: 900;
     color: #888;
-    margin-top: 3%;
+    margin-top: 5%;
     line-height: 1.6em;
 } 
 
 .feeling-lucky {
-    margin-top: 5%;
+    margin-top: 3%;
 }
 
 /*cover-nav font-size at media query*/
