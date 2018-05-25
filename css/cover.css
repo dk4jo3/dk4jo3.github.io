@@ -17,32 +17,28 @@ a:focus,
 a:hover {
     color: #000;
 }
-/* Custom default button */
 
-.btn-default,
-.btn-default:hover,
-.btn-default:focus {
-    color: #333;
-    text-shadow: none;
-    /* Prevent inheritance from `body` */
-    
-    background-color: #fff;
-    border: 1px solid #fff;
+.cover-nav a,
+.astext {
+    color: #fff;
+    background: #aaa;
+    padding: .1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-left: .25em;
+    margin-right: .25em;
+    cursor: pointer;
 }
 
-.astext,
+.cover-nav a:hover,
+.cover-nav a:focus,
+.astext:hover,
 .astext:focus {
-    outline: 0;
-    font-weight: 900;
-    color: #888;
-    background:none;
-    border:none;
-    line-height: 1.6em;
+    color: #fff;
+    background: #222
 }
 
-.astext:hover {
-    color: #333;
-}
+/* Custom default button */
 
 /*back to top button*/
 
@@ -64,6 +60,7 @@ body {
     background-color: #FFF;
     line-height: 1.6em;
 }
+
 body {
     color: #000;
     text-align: center;
@@ -82,19 +79,23 @@ body {
     /*-webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
           box-shadow: inset 0 0 100px rgba(0,0,0,.5);*/
 }
+
 .site-wrapper-inner {
     display: table-cell;
     vertical-align: top;
 }
+
 .cover-container {
     margin-right: auto;
     margin-left: auto;
 }
+
 /* Padding for spacing */
 
 .inner {
     padding: 30px;
 }
+
 /* h elements */
 
 h1,
@@ -107,10 +108,14 @@ h6 {    line-height: 1.4em;
 
 h1,
 h2,
-h5,
 h6 {
     font-family: playfair display;
-    font-weight: 700;
+    font-weight: 900;
+}
+
+h5 {
+    font-weight: 500;
+    line-height: 1.6em;
 }
 /* Header */
 
@@ -166,17 +171,21 @@ h6 {
 }
 .description {
     font-weight: 700;
-    font-size: 1.2em;
     text-align: center;
-    margin-top: 0%;
+    margin-top: 5%;
 }
 .cover-nav {
-    font-size: 2.4em;
     font-weight: 900;
     color: #888;
-    margin-top: 5%;
+    margin-top: 6%;
     line-height: 2em;
+} 
+
+.feeling-lucky {
+    margin-top: 3%;
 }
+
+/*cover-nav font-size at media query*/
 
 /*works, blogs, and contacts*/
 
@@ -209,13 +218,13 @@ h6 {
         font-size: 1 em;
     }
     .mastfoot {
-        font-size: 0.7em;
+        font-size: .8em;
     }
     .cover-nav {
-        font-size: 1.8em;
+        font-size: 1.25em;
     }
     .astext {
-        font-size: 2em;
+        font-size: 1.5em;
     }
 }
 /* viewport 480px and above*/
@@ -231,10 +240,10 @@ h6 {
         font-size: 0.8em;
     }
     .cover-nav {
-        font-size: 2em;
+        font-size: 1.8em;
     }
     .astext {
-        font-size: 2.1em;
+        font-size: 1.8em;
     }
 }
 /* viewport 768px and above*/
@@ -247,11 +256,11 @@ h6 {
         font-size: 0.8em;
     }
     .cover-nav {
-        font-size: 2.4em;
+        font-size: 2em;
     }
     
     .astext {
-        font-size: 2.2em;
+        font-size: 2em;
     }
     /*brand and nav float*/
     
