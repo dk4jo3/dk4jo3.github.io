@@ -20,11 +20,9 @@ a:hover {
 
 .cover-nav a,
 .astext {
-    color: #fff;
-    background: #888;
+    color: #888;
+    background: none;
     padding: .1em;
-    padding-left: 1em;
-    padding-right: 1em;
     margin-left: .25em;
     margin-right: .25em;
     cursor: pointer;
@@ -36,8 +34,8 @@ a:hover {
 .cover-nav a:focus,
 .astext:hover,
 .astext:focus {
-    color: #fff;
-    background: #000;
+    color: #000;
+    background: none;
     text-decoration: none;
 
 }
@@ -181,8 +179,8 @@ h5 {
 .cover-nav {
     font-weight: 900;
     color: #888;
-    margin-top: 6%;
-    line-height: 2em;
+    margin-top: 3%;
+    line-height: 1.6em;
 } 
 
 .feeling-lucky {
@@ -225,10 +223,13 @@ h5 {
         font-size: .8em;
     }
     .cover-nav {
-        font-size: 1.25em;
+        font-size: 2.8em;
+    }
+    .title {
+        font-size: 2.4em;
     }
     .astext {
-        font-size: 1.5em;
+        font-size: 1.6em;
     }
 }
 /* viewport 480px and above*/
@@ -244,10 +245,13 @@ h5 {
         font-size: 0.8em;
     }
     .cover-nav {
-        font-size: 1.8em;
+        font-size: 2.8em;
     }
     .astext {
-        font-size: 1.8em;
+        font-size: 2em;
+    }
+    .title {
+        font-size: 2.8em;
     }
 }
 /* viewport 768px and above*/
@@ -260,11 +264,15 @@ h5 {
         font-size: 0.8em;
     }
     .cover-nav {
-        font-size: 1.8em;
+        font-size: 3.2em;
     }
     
     .astext {
-        font-size: 1.8em;
+        font-size: 2em;
+    }
+    
+    .title {
+        font-size: 3.2em;
     }
     /*brand and nav float*/
     
