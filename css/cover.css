@@ -40,6 +40,11 @@ a:hover {
 
 }
 
+.title {
+    font-weight: 900;
+    line-height: 1.2em;
+}
+
 /* Custom default button */
 
 /*back to top button*/
@@ -184,7 +189,7 @@ h5 {
 } 
 
 .feeling-lucky {
-    margin-top: 3%;
+    margin-top: 5%;
 }
 
 /*cover-nav font-size at media query*/
@@ -223,10 +228,10 @@ h5 {
         font-size: .8em;
     }
     .cover-nav {
-        font-size: 2.8em;
+        font-size: 2.7em;
     }
     .title {
-        font-size: 2.4em;
+        font-size: 2em;
     }
     .astext {
         font-size: 1.6em;
@@ -245,7 +250,7 @@ h5 {
         font-size: 0.8em;
     }
     .cover-nav {
-        font-size: 2.8em;
+        font-size: 2.5em;
     }
     .astext {
         font-size: 2em;
@@ -272,7 +277,7 @@ h5 {
     }
     
     .title {
-        font-size: 3.2em;
+        font-size: 2.6em;
     }
     /*brand and nav float*/
     
