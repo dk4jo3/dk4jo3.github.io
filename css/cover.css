@@ -21,13 +21,15 @@ a:hover {
 .cover-nav a,
 .astext {
     color: #fff;
-    background: #aaa;
+    background: #888;
     padding: .1em;
     padding-left: 1em;
     padding-right: 1em;
     margin-left: .25em;
     margin-right: .25em;
     cursor: pointer;
+    font-weight: 900;
+    
 }
 
 .cover-nav a:hover,
@@ -35,7 +37,9 @@ a:hover {
 .astext:hover,
 .astext:focus {
     color: #fff;
-    background: #222
+    background: #000;
+    text-decoration: none;
+
 }
 
 /* Custom default button */
@@ -256,11 +260,11 @@ h5 {
         font-size: 0.8em;
     }
     .cover-nav {
-        font-size: 2em;
+        font-size: 1.8em;
     }
     
     .astext {
-        font-size: 2em;
+        font-size: 1.8em;
     }
     /*brand and nav float*/
     
