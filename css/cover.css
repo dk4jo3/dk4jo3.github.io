@@ -10,13 +10,12 @@
 /* Links */
 
 a { 
-
-    color: #888888;
+   color: #888888
 }
+
 a:focus,
 a:hover {
     color: #000;
-    text-decoration: none;
 }
 /* Custom default button */
 
