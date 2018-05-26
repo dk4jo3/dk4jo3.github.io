@@ -126,6 +126,10 @@ h5 {
     font-weight: 500;
     line-height: 1.6em;
 }
+
+.content-list h2 {
+    color: #000;
+}
 /* Header */
 
 .masthead-brand {
