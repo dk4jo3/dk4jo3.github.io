@@ -8,7 +8,9 @@
     margin-bottom: 3vh;
 }
 
-
+.insight-header {
+    margin-bottom: 5vh;
+}
 
 /*outline*/
 .outline-col > ul {
@@ -79,7 +81,9 @@ strong {
     margin-top:4vh;
 }
 
-
+.center-block {
+    width: 40%;
+}
 
 /*gradient background for header & footer*/
 .masthead {
@@ -139,10 +143,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
         align-items: center;
     }
     
-    .icon {
-        width: 10vh;
-        margin: auto;
-    }
+  
   }
 
 
@@ -163,9 +164,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
         align-items: center;
     }
     
-    .icon {
-        margin: 2vh;
-    }
+
   }
 
 
