@@ -44,7 +44,7 @@ a:hover {
 
 .astext {
     color: #fff;
-    background: #000;
+    background: #888;
     padding: .1em;
     padding-left: .5em;
     padding-right: .5em;
@@ -57,7 +57,7 @@ a:hover {
 .astext:focus {
     color: #000;
     background: none;
-    border: 3px solid #000;
+    /*border: 3px solid #000;*/
 
 }
 
@@ -210,13 +210,29 @@ h5 {
     font-weight: 900;
     color: #888;
     margin-top: 5%;
-    line-height: 1.6em;
+    line-height: 1.2em;
 } 
 
-.feeling-lucky {
-    margin-top: 6%;
+.feeling-lucky,
+.or {
+    margin-top: 3%;
 }
 
+.row-centered {
+text-align: center;
+}
+
+.col-centered {
+display: inline-block;
+float: none;
+/* reset the text-align */
+text-align: center;
+/* inline-block space fix */
+}
+
+.cn-text{
+    font
+}
 /*cover-nav font-size at media query*/
 
 /*works, blogs, and contacts*/
@@ -240,7 +256,7 @@ h5 {
    MEDIA QUERIES
 \*               */
 /* viewport 320px and above*/
-
+ 
 @media only screen and (min-width: 320px) {
     .content-list {
         font-size: 1.2em;
