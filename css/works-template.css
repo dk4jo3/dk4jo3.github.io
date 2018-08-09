@@ -1,5 +1,9 @@
 /*header*/
 
+.testing {
+    background-color: black;
+}
+
 .header h1 {
     font-weight: 900;
 }
@@ -173,6 +177,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
 
 /* viewport 768px and above*/
 @media only screen and (min-width: 768px) {
+    
   /* Pull out the header and footer */
     
     .outline-col > ul {
@@ -193,6 +198,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
     bottom: -24px;
   }
     
+
     
 /* Start the vertical centering 
     
