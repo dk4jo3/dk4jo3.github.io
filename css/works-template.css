@@ -82,6 +82,14 @@ strong {
 .research-link {
     margin-top: 3%
 }
+
+/*image grid*/
+
+.image-shadow {
+    box-shadow: -webkit-box-shadow: 0px 6px 40px 10px rgba(0,0,0,0.12);
+-moz-box-shadow: 0px 6px 40px 10px rgba(0,0,0,0.12);
+box-shadow: 0px 6px 40px 10px rgba(0,0,0,0.12);
+}
 /*icon+text*/
 
 .icon-copy {
