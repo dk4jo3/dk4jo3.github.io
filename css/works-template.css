@@ -56,7 +56,11 @@
     text-align: center;
 }
 
+/* all img*/
 
+.max-40 {
+    max-height: 40%;
+}
 
 /*image+text*/
 
