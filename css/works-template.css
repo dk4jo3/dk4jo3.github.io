@@ -164,7 +164,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
     }
     
     .row {
-        display: initial;
+        display: flex;
         align-items: center;
     }
     
@@ -185,8 +185,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
     }
     
     .row {
-        display: flex;
-        align-items: center;
+        display: flex !important;
+        align-items: center !important;
     }
     
 
