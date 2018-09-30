@@ -11,9 +11,7 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900');
 /* Links */
 
-a { 
-   color: #888888
-}
+
 
 a:focus,
 a:hover {
@@ -23,7 +21,6 @@ a:hover {
 
 .cover-nav a
     {
-    color: #888;
     background: none;
     padding: .1em;
     margin-left: .25em;
@@ -43,8 +40,7 @@ a:hover {
 }
 
 .astext {
-    color: #fff;
-    background: #888;
+    color: #337ab7;
     padding: .1em;
     padding-left: .5em;
     padding-right: .5em;
