@@ -15,7 +15,7 @@
 
 a:focus,
 a:hover {
-    color: #000 !important;
+    color: #000;
     text-decoration: none
 }
 
@@ -251,6 +251,39 @@ text-align: center;
 
 .inner a {
     color: #888;
+}
+
+/*Neo Work Cards*/
+
+.work-card-outer {
+    padding: 12px;
+}
+
+.work-card-inner {
+    background-image: url("https://images.unsplash.com/photo-1551043047-1d2adf00f3fa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
+    filter: grayscale(100%);
+    min-height: 240px;
+    background-size: cover;
+}
+
+
+.work-card-inner:hover {
+    transition: filter 0.25s ease;
+    filter: grayscale(0%);
+
+}
+
+.work-card-background {}
+
+.work-card-heading {
+    padding-left: 5%;
+    padding-right: 5%;
+    position: absolute;
+    bottom: 5%;
+    text-align:left;
+    font-weight: 600;
+    color: #fff;
+    font-size: 1.4em;
 }
 /*               *\
    MEDIA QUERIES
