@@ -146,27 +146,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
 /* viewport 320px and above*/
 @media only screen and (min-width : 320px) {
     
-    .masthead,
-    .mastfoot{
-        position: relative;
-    }
-    
-    .page-wrapper {
-        height: auto;
-    }
-    
-    .masthead {
-        position: relative;
-    }
-  
-    .outline-col > ul {
-        display: none;
-    }
-    
-    .row {
-        display: flex;
-        align-items: center;
-    }
     
   
   }
