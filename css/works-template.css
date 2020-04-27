@@ -34,9 +34,6 @@
 }
 
 
-.row {
-
-}
 
 
 .toc {
@@ -162,8 +159,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
         display: none;
     }
     
-    .row {
-       
+    .row {   
     }
     
   
@@ -183,7 +179,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
     }
     
     .row {
-     
+
     }
     
 
@@ -194,6 +190,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
 @media only screen and (min-width: 768px) {
     
   /* Pull out the header and footer */
+   
+.row {
+    display: flex !important;
+    align-items: center !important;
+}
+    
     
     .outline-col > ul {
         display: inherit
