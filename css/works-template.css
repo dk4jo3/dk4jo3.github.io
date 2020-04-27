@@ -33,8 +33,10 @@
     align-items:center;
 }
 
-
-
+/* override the display: flex aka no align top within div*/
+.no-flex {
+    display: block !important;
+}
 
 .toc {
     margin-top: 5vh;
@@ -99,11 +101,11 @@ h4 {
 /*icon+text*/
 
 .icon-copy {
-    margin-top:4vh;
+    margin: auto;
 }
 
 .center-icon {
-    width: 18%;
+    width: 100px;
 }
 
 /*gradient background for header & footer*/
@@ -131,7 +133,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
 }
 
 .img-responsive {
-    margin: 0 auto;
+    margin: 16px auto;
 }
 
  /*---------------*\
@@ -192,8 +194,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
   /* Pull out the header and footer */
    
 .row {
-    display: flex !important;
-    align-items: center !important;
+    display: flex;
+    align-items: center;
 }
     
     
