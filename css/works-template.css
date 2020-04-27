@@ -35,8 +35,7 @@
 
 
 .row {
-  display: flex;
-  align-items: center;
+
 }
 
 
@@ -107,7 +106,7 @@ h4 {
 }
 
 .center-icon {
-    width: 40%;
+    width: 18%;
 }
 
 /*gradient background for header & footer*/
@@ -146,6 +145,26 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
 /* viewport 320px and above*/
 @media only screen and (min-width : 320px) {
     
+    .masthead,
+    .mastfoot{
+        position: relative;
+    }
+    
+    .page-wrapper {
+        height: auto;
+    }
+    
+    .masthead {
+        position: relative;
+    }
+  
+    .outline-col > ul {
+        display: none;
+    }
+    
+    .row {
+       
+    }
     
   
   }
@@ -164,8 +183,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
     }
     
     .row {
-        display: flex !important;
-        align-items: center !important;
+     
     }
     
 
