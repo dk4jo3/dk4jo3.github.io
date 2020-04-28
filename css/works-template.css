@@ -12,9 +12,9 @@
     margin-bottom: 3vh;
 }
 
-.insight-header {
+/*.insight-header {
     margin-bottom: 5vh;
-}
+}*/
 
 /*outline*/
 .outline-col > ul {
@@ -95,6 +95,10 @@ strong {
 
 h4 {
     margin-bottom: 24px;
+}
+
+.summary-ul {
+    padding-left: 12px;
 }
 
 

@@ -1,3 +1,8 @@
+/* font import */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&family=Playfair+Display:wght@400;500;700;900&display=swap');
+
 /*5/25 3:13*/
 
 /*
@@ -6,9 +11,9 @@
 
 .cover-nav > p {margin: 0}
 
-/* font */
 
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900');
+
+
 /* Links */
 
 
@@ -78,7 +83,7 @@ a:hover {
 
 html,
 body {
-    font-family: Playfair display, "futura";
+    font-family: 'Playfair Display', sans-serif;
     font-weight: 500;
     height: 100%;
     background-color: #FFF;
@@ -89,6 +94,15 @@ body {
     color: #000;
     text-align: center;
 }
+
+/*for all smaller font*/
+
+.content-copy {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+}
+
+
 /* Extra markup and styles for table-esque vertical and horizontal centering */
 
 
@@ -126,20 +140,25 @@ h2,
 h3,
 h4,
 h5,
-h6 {    line-height: 1.4em;
+h6 {    
+    line-height: 1.4em;
 }
 
 h1,
 h2,
-h6 {
-    font-family: playfair display;
+h6,
+{
     font-weight: 900;
 }
 
-h5 {
+
+
+h5,
+h4 {
     font-weight: 500;
     line-height: 1.6em;
 }
+
 
 .content-list h2 {
     color: #000;
@@ -197,7 +216,7 @@ h5 {
     font-weight: bold;
 }
 .description {
-    font-weight: 700;
+    font-weight: 900;
     text-align: center;
     margin-top: 5%;
 }
