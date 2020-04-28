@@ -15,7 +15,7 @@
 
 a:focus,
 a:hover {
-    color: #000;
+    color: #000 !important;
     text-decoration: none
 }
 
@@ -265,9 +265,6 @@ text-align: center;
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 
-.work-card-inner b {
-    letter-spacing: 2px;
-}
 
 
 .work-card-inner:hover {
@@ -291,6 +288,14 @@ text-align: center;
     font-size: 1.4em;
     line-height: 1.6em;
 }
+
+.work-card-heading b {
+    letter-spacing: 1px;
+    font-weight: 700;
+    font-size: 1.4em;
+}
+
+
 
 /*               *\
    MEDIA QUERIES
