@@ -259,6 +259,7 @@ text-align: center;
 }
 
 .work-card-inner {
+    border-radius: 4px;
     filter: grayscale(20%);
     min-height: 180px;
     background-size: cover;
