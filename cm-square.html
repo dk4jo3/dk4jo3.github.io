@@ -58,31 +58,7 @@
 
 
                 <!-- header -->
-
-
-                <div class="masthead clearfix">
-                    <div class="inner">
-                        <a href="http://www.kenchendesign.com">
-                            <h3 class="masthead-brand">KC</h3>
-                        </a>
-                        <nav>
-                            <ul class="nav masthead-nav">
-                                <li>
-                                    <a href="http://www.kenchendesign.com/work">WORK</a>
-                                </li>
-                                <li>/</li>
-                                <li>
-                                    <a href="http://www.kenchendesign.com/contact">CONTACT</a>
-                                </li>
-                                <li>/</li>
-                                <li>
-                                    <a href="http://www.kenchendesign.com/blog">BLOG</a>
-                                </li>
-                            </ul>
-                        </nav>
-                    </div>
-                </div>
-
+                <div id="header"></div>
 
                 <!-- main content -->
 
@@ -362,16 +338,8 @@
                         <!-- mockup -->
 
                     </div>
+                    <div id="footer"></div>
 
-
-
-                    <div class="mastfoot">
-                        <div class="inner">
-                            <p><a href="http://twitter.com/kchenishere" target="_blank">&nbsp;Twitter&nbsp;</a>|<a href="mailto:kowei.y.chen@gmail.com" target="_blank">&nbsp;Email&nbsp;</a>|<a href="http://linkedin.com/in/koweichen" target="_blank">&nbsp;Linkedin&nbsp;</a>|<a href="https://github.com/dk4jo3/" target="_blank">&nbsp;Github&nbsp;</a></p>
-                        </div>
-
-
-                    </div>
                     <!-- footer close div -->
 
                 </div>
@@ -379,74 +347,79 @@
             </div>
             <!-- site wrapper inner close div -->
         </div>
-        <!-- site wrapper close div -->
+    </div>
+    <!-- site wrapper close div -->
 
-        <!-- Bootstrap core JavaScript
+    <!-- Bootstrap core JavaScript
     ================================================== -->
-        <!-- Placed at the end of the document so the pages load faster -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js">
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js">
 
 
-        </script>
-        <script>
-            window.jQuery || document.write(
-                '<script src="js/jquery.min.js"><\/script>'
-            )
+    </script>
+    <script>
+        window.jQuery || document.write(
+            '<script src="js/jquery.min.js"><\/script>'
+        )
 
-        </script>
-        <script src="js/">
-
-
-        </script>
-        <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-
-        <script src="js/ie10-viewport-bug-workaround.js">
+    </script>
+    <script src="js/">
 
 
-        </script>
-        <script src="lightbox-master/dist/ekko-lightbox.js">
+    </script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+
+    <script src="js/ie10-viewport-bug-workaround.js">
 
 
-        </script>
-        <script src="fullPage.js-master/dist/jquery.fullpage.js">
+    </script>
+    <script src="lightbox-master/dist/ekko-lightbox.js">
 
 
-        </script>
-        <script src="js/bootstrap.min.js">
+    </script>
+    <script src="fullPage.js-master/dist/jquery.fullpage.js">
 
 
-        </script>
-        <script type="text/javascript" src="vendors/scrolloverflow.min.js">
+    </script>
+    <script src="js/bootstrap.min.js">
 
 
-        </script>
-
-        <!-- Lightbox Script> -->
-        <script type="text/javascript">
-            $(document).on('click',
-                '[data-toggle="lightbox"]',
-                function(event) {
-                    event.preventDefault();
-                    $(this).ekkoLightbox();
-                });
-
-        </script>
+    </script>
+    <script type="text/javascript" src="vendors/scrolloverflow.min.js">
 
 
-        <!-- Scrolling Script Credit to Alvaro Trigo https://alvarotrigo.com/fullPage/ -->
-        <script type="text/javascript">
-            $(document).ready(function() {
-                $('#fullpage').fullpage({
-                    scrollingSpeed: 600,
-                    responsiveWidth: 768
-                });
+    </script>
+
+    <!-- Lightbox Script> -->
+    <script type="text/javascript">
+        $(document).on('click',
+            '[data-toggle="lightbox"]',
+            function(event) {
+                event.preventDefault();
+                $(this).ekkoLightbox();
             });
 
-        </script>
+    </script>
 
 
+    <!-- Scrolling Script Credit to Alvaro Trigo https://alvarotrigo.com/fullPage/ -->
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#fullpage').fullpage({
+                scrollingSpeed: 600,
+                responsiveWidth: 768
+            });
+        });
 
+    </script>
 
+    <script>
+        $(function() {
+            $("#header").load("header.html");
+            $("#footer").load("footer.html");
+        });
+
+    </script>
 
 </body>
 

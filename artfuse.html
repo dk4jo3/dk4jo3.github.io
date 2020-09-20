@@ -42,42 +42,14 @@
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
     <script src="js/ie-emulation-modes-warning.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    
-    <script>
-        $(function() {
-            $("#header").load("header.html");
-            $("#footer").load("footer.html");
-        });
-    </script>
 </head>
 
 <body>
     <div class="site-wrapper">
         <div class="site-wrapper-inner">
             <div class="cover-container">
-                <!-------------------------------------- header -------------------------------------->
-                <div class="masthead clearfix">
-                    <div class="inner">
-                        <a href="http://www.kenchendesign.com">
-                            <h3 class="masthead-brand">KC</h3>
-                        </a>
-                        <nav>
-                            <ul class="nav masthead-nav">
-                                <li>
-                                    <a href="http://www.kenchendesign.com/work">WORK</a>
-                                </li>
-                                <li>/</li>
-                                <li>
-                                    <a href="http://www.kenchendesign.com/contact">CONTACT</a>
-                                </li>
-                                <li>/</li>
-                                <li>
-                                    <a href="http://www.kenchendesign.com/blog">BLOG</a>
-                                </li>
-                            </ul>
-                        </nav>
-                    </div>
-                </div>
+                <!-- header -->
+                <div id="header"></div>
                 <!-------------------------------------- main content -------------------------------------->
                 <div class="cover">
                     <div id="fullpage" class="section-wrapper">
@@ -163,7 +135,7 @@
                                     <div class="row no-flex">
                                         <div class="col-sm-4">
                                             <a data-toggle="lightbox" href="img/artfuse/artfuse-img3.jpg"><img class="img-responsive center-block" src="img/artfuse/artfuse-img3.jpg"></a>
-                                          
+
                                             <p class="text-left icon-copy content-copy">
                                                 <strong>Competitive Analysis</strong><br><br>
                                                 It is evident that there are significant gaps between art, design, and performance art social media platforms.
@@ -455,7 +427,7 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                         <!-- buttom 
                         <div class="section fp-auto-height-responsive" section-number="coda">
                             <div class="row">
@@ -465,7 +437,7 @@
                             </div>
                             
                         </div> -->
-                        
+
                     </div>
                 </div>
                 <div id="footer"></div>
@@ -510,6 +482,14 @@
                 scrollingSpeed: 600,
                 responsiveWidth: 768
             });
+        });
+
+    </script>
+
+    <script>
+        $(function() {
+            $("#header").load("header.html");
+            $("#footer").load("footer.html");
         });
 
     </script>

@@ -58,31 +58,7 @@
 
 
                 <!-- header -->
-
-
-                <div class="masthead clearfix">
-                    <div class="inner">
-                        <a href="http://www.kenchendesign.com">
-                            <h3 class="masthead-brand">KC</h3>
-                        </a>
-                        <nav>
-                            <ul class="nav masthead-nav">
-                                <li>
-                                    <a href="http://www.kenchendesign.com/work">WORK</a>
-                                </li>
-                                <li>/</li>
-                                <li>
-                                    <a href="http://www.kenchendesign.com/contact">CONTACT</a>
-                                </li>
-                                <li>/</li>
-                                <li>
-                                    <a href="http://www.kenchendesign.com/blog">BLOG</a>
-                                </li>
-                            </ul>
-                        </nav>
-                    </div>
-                </div>
-
+                <div id="header"></div>
 
                 <!-- main content -->
 
@@ -471,13 +447,8 @@
                 </div>
 
 
-                <div class="mastfoot">
-                    <div class="inner">
-                        <p><a href="http://twitter.com/kchenishere" target="_blank">&nbsp;Twitter&nbsp;</a>|<a href="mailto:kowei.y.chen@gmail.com" target="_blank">&nbsp;Email&nbsp;</a>|<a href="http://linkedin.com/in/koweichen" target="_blank">&nbsp;Linkedin&nbsp;</a>|<a href="https://github.com/dk4jo3/" target="_blank">&nbsp;Github&nbsp;</a></p>
-                    </div>
+                <div id="footer"></div>
 
-
-                </div>
                 <!-- footer close div -->
 
             </div>
@@ -536,7 +507,13 @@
 
     </script>
 
+    <script>
+        $(function() {
+            $("#header").load("header.html");
+            $("#footer").load("footer.html");
+        });
 
+    </script>
 
 
 
