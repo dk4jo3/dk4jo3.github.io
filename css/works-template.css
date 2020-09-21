@@ -174,23 +174,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
 
 /* viewport 480px and above*/
 @media only screen and (min-width : 480px) {
-
     
-    .masthead-nav > li > a {
-        font-size: 1.4em;
-    }
-    
-    .mastfoot {
-        font-size: 0.8em;
-    }
-    
-    .row {
-
-    }
-    
-
-  }
-
+}
 
 /* viewport 768px and above*/
 @media only screen and (min-width: 768px) {
