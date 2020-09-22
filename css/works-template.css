@@ -36,16 +36,17 @@
 /*Photo flex container and items*/
 
 .photo-container {
-    margin-top: 25vh;
-}
-
-.photo-container {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .photo {
     margin: 12px;
     flex: 1 1 calc(50% - 24px);
+}
+
+.photo-full {
+    flex: 1 1 100%;
 }
 
 /* override the display: flex aka no align top within div*/
@@ -179,18 +180,24 @@ h4 {
     .outline-col > ul {
         display: none;
     }
-    
+
 }
 
 
 /* viewport 480px and above*/
-@media only screen and (min-width : 480px) {}
+@media only screen and (min-width : 480px) {
+    .photo-top-row {
+        margin-top: 25vh;
+    }
+}
+
+}
 
 /* viewport 768px and above*/
 @media only screen and (min-width: 768px) {
 
     /* Pull out the header and footer */
-    
+
     .photo-header-row {
         margin-top: inherit;
     }
@@ -219,6 +226,9 @@ h4 {
         bottom: -24px;
     }
 
+    .photo-top-row {
+        margin-top: 30vh;
+    }
 
 
     /* Start the vertical centering 
@@ -242,6 +252,8 @@ h4 {
     .mastfoot,
     .cover-container {
         width: 72vw;
-
     }
+
+
+
 }
