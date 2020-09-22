@@ -33,6 +33,17 @@
     align-items:center;
 }
 
+/*Photo flex container and items*/
+
+.photo-container {
+    display: flex;
+}
+
+.photo {
+    margin: 12px;
+    flex: 1 1 calc(50% - 24px);
+}
+
 /* override the display: flex aka no align top within div*/
 .no-flex {
     display: block !important;
