@@ -38,11 +38,12 @@
 .photo-container {
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
 }
 
 .photo {
     margin: 12px;
-    flex: 1 1 calc(50% - 24px);
+    flex: 1 1 240px;
 }
 
 .photo-full {
@@ -189,6 +190,7 @@ h4 {
     .photo-top-row {
         margin-top: 25vh;
     }
+
 }
 
 }
@@ -230,7 +232,6 @@ h4 {
         margin-top: 30vh;
     }
 
-
     /* Start the vertical centering 
     
   .site-wrapper-inner {
@@ -253,7 +254,5 @@ h4 {
     .cover-container {
         width: 72vw;
     }
-
-
 
 }
