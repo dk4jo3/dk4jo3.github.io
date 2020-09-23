@@ -157,6 +157,10 @@ h4 {
     margin: 16px auto;
 }
 
+.photo .img-responsive {
+    margin: 0;
+}
+
 /*---------------*\
 |   MEDIA QUERIES   |
  \*---------------*/
@@ -188,12 +192,13 @@ h4 {
 /* viewport 480px and above*/
 @media only screen and (min-width : 480px) {
     .photo-top-row {
-        margin-top: 25vh;
+        margin-top: 20vh;
     }
 
 }
 
 }
+
 
 /* viewport 768px and above*/
 @media only screen and (min-width: 768px) {
@@ -224,19 +229,13 @@ h4 {
     }
 
     .mastfoot {
-        position: fixed;
+        position: fixed;!important
         bottom: -24px;
     }
 
     .photo-top-row {
         margin-top: 30vh;
     }
-
-    /* Start the vertical centering 
-    
-  .site-wrapper-inner {
-    vertical-align: middle;
-  }*/
 
     /* Handle the widths */
     .masthead,
