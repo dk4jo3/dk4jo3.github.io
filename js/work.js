@@ -10,7 +10,7 @@ $(document).on('click',
 // full page scrolling
 $(document).ready(function () {
     $('#fullpage').fullpage({
-        scrollingSpeed: 600,
+        scrollingSpeed: 320,
         responsiveWidth: 768
     });
 });
