@@ -55,6 +55,12 @@
     display: block !important;
 }
 
+.flex-center {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
 .toc {
     margin-top: 5vh;
 }
@@ -123,7 +129,9 @@ h4 {
 
 .icon-copy {
     margin: auto;
+    text-align:left;
 }
+
 
 .center-icon {
     width: 100px;
