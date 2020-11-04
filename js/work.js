@@ -13,6 +13,7 @@ $(document).ready(function () {
         scrollingSpeed: 400,
         responsiveWidth: 768,
         easing: 'easeInOutCubic',
+        recordHistory: true,
         lazyLoading: true,
         lockAnchors: false,
         scrollBar: true,

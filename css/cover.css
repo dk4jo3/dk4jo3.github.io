@@ -127,6 +127,15 @@ body {
     margin-left: auto;
 }
 
+.space-between {
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
 /* Padding for spacing */
 
 .inner {
@@ -260,6 +269,10 @@ text-align: center;
     color: #888;
     font-size: 1.4em;
     line-height: 1.8em;
+}
+
+.content-list a {
+    margin-top: 3%
 }
 /* Footer */
 
