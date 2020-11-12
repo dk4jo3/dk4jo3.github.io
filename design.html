@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,7 +11,7 @@
     <meta name="keywords" content="KC, kenchen, UX/UI, Interaction, Design">
     <link rel="icon" href="../../favicon.ico">
 
-    <title>Ken Chen's Portfolio - Design</title>
+    <title>Ken Chen's Portfolio - Work</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -21,16 +22,16 @@
     <!-- Custom styles for this template -->
     <link href="css/cover.css" rel="stylesheet">
 
-
-    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
     <script src="js/ie-emulation-modes-warning.js"></script>
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <script>
+        $(function() {
+            $("#header").load("header.html");
+            $("#footer").load("footer.html");
+        });
+    </script>
 </head>
 
 
@@ -41,10 +42,9 @@
 
         <div class="site-wrapper-inner">
 
-            <div class="cover-container space-between">
+            <div class="cover-container">
 
                 <!-- header -->
-
                 <div id="header"></div>
 
                 <!-- main content -->
@@ -53,16 +53,59 @@
 
 
                     <div class="row">
-                        <div class="col-sm-12 content-list">
-                            <p>
-                                <a href="http://www.kenchendesign.com/artfuse">Artfuse: Connect the Creative Industry</a><br><br class="visible-xs">
-                                <a href="http://www.kenchendesign.com/opentaxsolver">Open Tax Solver: Open Source Tax Filling Solution</a><br><br class="visible-xs">
-                                <a href="http://www.kenchendesign.com/cm-square">CM²: Investing in Real Estate, 1cm² at a time</a><br><br class="visible-xs">
-                                <a href="http://www.kenchendesign.com/volu">Volu: Connecting Volunteers with Communities</a><br><br class="visible-xs">
-                                <a href="http://www.kenchendesign.com/telescope">Telescope: Decentralized Storage Management</a><br><br class="visible-xs">
-                                
-                            </p>
+                        <div class="col-md-6 col-sm-6  work-card-outer">
+                            <a href="http://www.kenchendesign.com/artfuse">
+                                <div class="work-card-inner work-card-BG" style="background-image: url(img/artfuse/artfuse-web-card.jpg)">
+                                    <p class="work-card-heading"> <b>Artfuse</b><br>Connect the Creative Industry</p>
+                                </div>
+                            </a>
                         </div>
+                        <div class="col-md-6 col-sm-6  work-card-outer">
+
+                            <a href="http://www.kenchendesign.com/cm-square">
+                                <div class="work-card-inner work-card-BG" style="background-image: url(img/cm2/cm2-web-card.jpg)">
+                                    <p class="work-card-heading"> <b>CM Square</b><br>Investing in Real Estate, 1cm² at a time</p>
+                                </div>
+                            </a>
+                        </div>
+                        <!--
+                        <div class="col-md-4 col-sm-6  work-card-outer">
+                            <a href="http://www.kenchendesign.com/medtrack.html"><div class="work-card-inner work-card-BG" style="background-image: url(img/medtrack/medtrack-web-card.jpg)">
+                            <p class="work-card-heading"> <b>Med-Track</b><br>Take “wait” out of the Waitingroom</p>
+                            </div></a>
+                        </div>
+-->
+                        <!--
+                        <div class="col-md-4 col-sm-6  work-card-outer">
+                            <a href="http://www.kenchendesign.com/habeo"><div class="work-card-inner work-card-BG" style="background-image: url(img/Habeo/habeo-web-card.jpg)">
+                            <p class="work-card-heading"> <b>Habeo</b><br>Real-time Utility Management</p>
+                            </div></a>
+                        </div> 
+-->
+                        <div class="col-md-4 col-sm-6  work-card-outer">
+                            <a href="http://www.kenchendesign.com/volu">
+                                <div class="work-card-inner work-card-BG" style="background-image: url(img/volu/volu-web-card.jpg)">
+                                    <p class="work-card-heading"><b>Volu</b><br>Connecting Volunteers with Communities</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-4 col-sm-6  work-card-outer">
+                            <a href="http://www.kenchendesign.com/opentaxsolver">
+                                <div class="work-card-inner work-card-BG" style="background-image: url(img/ots/ots_webcard.png)">
+                                    <p class="work-card-heading"> <b>Open Tax Solver</b><br>Open Source Tax Filling Solution</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-4 col-sm-6  work-card-outer">
+                            <a href="http://www.kenchendesign.com/telescope">
+                                <div class="work-card-inner work-card-BG" style="background-image: url(img/telescope/telescope-web-card.jpg)">
+                                    <p class="work-card-heading"> <b>Telescope</b><br>Decentralized Storage Management</p>
+                                </div>
+                            </a>
+                        </div>
+
+
+
                     </div>
                 </div>
 
@@ -79,15 +122,18 @@
 
     </div>
 
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+
     <script>
         window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')
     </script>
     <script src="js/"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="js/ie10-viewport-bug-workaround.js"></script>
-    <script src="js/ie-emulation-modes-warning.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/header_footer.js"></script>
+
 
 </body></html>

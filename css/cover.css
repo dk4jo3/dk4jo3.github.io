@@ -298,7 +298,7 @@ text-align: center;
 .work-card-inner {
     border-radius: 4px;
     filter: grayscale(20%);
-    min-height: 120px;
+    min-height: 200px;
     background-size: cover;
 }
 
