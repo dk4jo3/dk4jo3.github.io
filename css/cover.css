@@ -332,7 +332,20 @@ text-align: center;
     font-size: 1.8em;
 }
 
+.about-row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
 
+.about-copy {
+    text-align: left;
+}
+
+.headshot-pic {
+    max-width: 320px;
+    margin: auto;
+}
 
 /*               *\
    MEDIA QUERIES
