@@ -10,12 +10,14 @@ $(document).on('click',
 // full page scrolling
 $(document).ready(function () {
     $('#fullpage').fullpage({
-        scrollingSpeed: 1000,
+        scrollingSpeed: 900,
         responsiveWidth: 768,
         recordHistory: true,
         lazyLoading: true,
         lockAnchors: false,
         scrollBar: true,
+        easing: 'easeInOutCubic',
+        easingcss3: 'ease',
         anchors: ['main', 'page1', 'page2', 'page3', 'page4', 'page5', 'page6', 'page7', 'page8', 'page9', 'page10', 'page11', 'page12', 'page13', 'page14', 'page15', 'page16', 'page17', 'page18']
     });
 });
