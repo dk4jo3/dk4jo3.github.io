@@ -1052,75 +1052,36 @@
         * Determines the way of scrolling up or down:
         * by 'automatically' scrolling a section or by using the default and normal scrolling.
         */
-//        function scrolling(type){
-//            if (!isScrollAllowed.m[type]){
-//                return;
-//            }
-//
-//            var scrollSection = (type === 'down') ? moveSectionDown : moveSectionUp;
-//
-//            if(options.scrollOverflow){
-//                var scrollable = options.scrollOverflowHandler.scrollable($(SECTION_ACTIVE_SEL));
-//                var check = (type === 'down') ? 'bottom' : 'top';
-//
-//                if(scrollable.length > 0 ){
-//                    //is the scrollbar at the start/end of the scroll?
-//                    if(options.scrollOverflowHandler.isScrolled(check, scrollable)){
-//                        scrollSection();
-//                    }else{
-//                        return true;
-//                    }
-//                }else{
-//                    // moved up/down
-//                    scrollSection();
-//                }
-//            }else{
-//                // moved up/down
-//                scrollSection();
-//            }
-//        }
+        function scrolling(type){
+            if (!isScrollAllowed.m[type]){
+                return;
+            }
+
+            var scrollSection = (type === 'down') ? moveSectionDown : moveSectionUp;
+
+            if(options.scrollOverflow){
+                var scrollable = options.scrollOverflowHandler.scrollable($(SECTION_ACTIVE_SEL));
+                var check = (type === 'down') ? 'bottom' : 'top';
+
+                if(scrollable.length > 0 ){
+                    //is the scrollbar at the start/end of the scroll?
+                    if(options.scrollOverflowHandler.isScrolled(check, scrollable)){
+                        scrollSection();
+                    }else{
+                        return true;
+                    }
+                }else{
+                    // moved up/down
+                    scrollSection();
+                }
+            }else{
+                // moved up/down
+                scrollSection();
+            }
+        }
         
         // Added lines to prevent early section scrolling : variables
-  var lastScrollTime = 0;                                           /* <-- added */
-  var scrollTimeDelay = 250;                                        /* <-- added */
-
-  function scrolling(type){
-     if (!isScrollAllowed.m[type]){
-           return;
-     }
-
-  var scrollSection = (type === 'down') ? moveSectionDown : moveSectionUp;
-
-  if(options.scrollOverflow){
-     var scrollable = options.scrollOverflowHandler.scrollable($(SECTION_ACTIVE_SEL));
-     var check = (type === 'down') ? 'bottom' : 'top';
-
-     // Added lines to prevent early section scrolling : get the scroll interval
-     var currentScrollTime = new Date().getTime();                  /* <-- added */
-     var lastScrollTimeDiff = currentScrollTime - lastScrollTime;   /* <-- added */
-     lastScrollTime = currentScrollTime;                            /* <-- added */
-
-     if(scrollable.length > 0 ){
-        //is the scrollbar at the start/end of the scroll?
-        if(options.scrollOverflowHandler.isScrolled(check, scrollable)){
-           if (lastScrollTimeDiff>scrollTimeDelay) {                /* <-- added */
-              scrollSection();
-           }                                                        /* <-- added */
-        }else{
-           return true;
-        }
-     }else{
-        // moved up/down
-        if (lastScrollTimeDiff>scrollTimeDelay) {                   /* <-- added */
-           scrollSection();
-        }                                                           /* <-- added */
-     }
-     }else{
-        // moved up/down
-        // Add IF here too when delay is needed and scrollOverflow : false
-        scrollSection(); 
-     }
-  }
+  
 
         /*
         * Preventing bouncing in iOS #2285
