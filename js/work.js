@@ -11,7 +11,7 @@ $(document).on('click',
 $(document).ready(function () {
     $('#fullpage').fullpage({
         scrollingSpeed: 900,
-        responsiveWidth: 768,
+        responsiveWidth: 9999,
         recordHistory: true,
         lazyLoading: true,
         lockAnchors: false,
