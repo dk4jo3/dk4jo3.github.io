@@ -22,7 +22,10 @@
     margin-bottom: 5%
 }
 
-.page-wrapper .col-sm-6 {
+.page-wrapper .col-sm-6,
+.page-wrapper .col-sm-5,
+.page-wrapper .col-sm-7,
+.page-wrapper .col-sm-12{
     margin-bottom: 5%
 }
 
