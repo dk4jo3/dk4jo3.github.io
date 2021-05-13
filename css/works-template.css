@@ -18,8 +18,12 @@
 
 /* Section Margin*/
 .fp-auto-height {
-    margin-top: 10%;
-    margin-bottom: 10%
+    margin-top: 5%;
+    margin-bottom: 5%
+}
+
+.page-wrapper .col-sm-6 {
+    margin-bottom: 5%
 }
 
 
@@ -38,6 +42,47 @@
     height: 100vh;
     display: flex;
     align-items: center;
+}
+
+/* block quote */
+blockquote{
+  font-size: 1.0em;
+  width:100%;
+  margin:auto;
+  font-family:Open Sans;
+  font-style:italic;
+  color: #222;
+  padding: 0.6em 32px 0.6em 32px;
+  border-left:5px solid #85d5fa ;
+  line-height:1.6;
+  position: relative;
+  background:#F5F5F5;
+/*  min-height: 60px;*/
+}
+
+blockquote::before{
+  font-family:'Raleway', sans-serif;
+  content: "\201C";
+  color:#FFF;
+  font-size: 4em;
+  position: absolute;
+  left: 8px;
+  top: -8px;
+}
+
+
+blockquote span{
+  display:block;
+  color:#333333;
+  font-style: normal;
+  font-weight: bold;
+  margin-top:1em;
+}
+
+small {
+    text-align: left;
+    font-style: italic;
+    font-family: 'Raleway', sans-serif;
 }
 
 /*Photo flex container and items*/
@@ -92,15 +137,21 @@
 
 /*image+text*/
 
+.page-wrapper p,
+.page-wrapper ol li,
+.page-wrapper ul li {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    text-align: left;
+}
+
 .content-copy > ul {
     list-style: none;
     text-align: left;
-    padding-left: 24px;
-    margin-top: .6vh;
+    padding-left: 12px;
 }
 
 .content-copy > ul > li {
-    margin-top: 1.2vh;
     list-style: initial;
 
 }
