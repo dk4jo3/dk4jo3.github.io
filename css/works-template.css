@@ -49,7 +49,7 @@
 
 /* block quote */
 blockquote{
-  font-size: 1.0em;
+  font-size: 1.2em;
   width:100%;
   margin:auto;
   font-family:Open Sans;
@@ -323,7 +323,7 @@ h4 {
     .masthead,
     .mastfoot,
     .cover-container {
-        width: 72vw;
+        width: 80vw;
     }
 
 }
