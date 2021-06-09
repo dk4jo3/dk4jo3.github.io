@@ -71,7 +71,7 @@ blockquote{
   line-height:1.6;
   position: relative;
   background:#F5F5F5;
-/*  min-height: 60px;*/
+  min-height: 60px;
 }
 
 blockquote::before{
@@ -90,7 +90,7 @@ blockquote span{
   color:#333333;
   font-style: normal;
   font-weight: bold;
-  margin-top:1em;
+  margin-top:em;
 }
 
 small {
