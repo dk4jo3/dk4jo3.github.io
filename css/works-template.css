@@ -22,11 +22,22 @@
     margin-bottom: 5%
 }
 
+.page-wrapper .col-sm-8,
+.page-wrapper .col-sm-4,
 .page-wrapper .col-sm-6,
 .page-wrapper .col-sm-5,
 .page-wrapper .col-sm-7,
-.page-wrapper .col-sm-12{
+.page-wrapper .col-sm-12
+{
     margin-bottom: 5%
+}
+
+.page-wrapper .no-mb {
+    margin-bottom: 0;
+}
+
+.work-top {
+    margin-top: 25vh;
 }
 
 
@@ -234,7 +245,7 @@ h4 {
 }
 
 .img-responsive {
-    margin: 16px auto;
+    margin-bottom: 24px;
 }
 
 .photo .img-responsive {
