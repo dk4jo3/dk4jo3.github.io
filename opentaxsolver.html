@@ -92,9 +92,7 @@
                                     <div class="row">
                                         <div class="col-sm-12">
                                             <h4 class="content-copy">
-                                                <strong>Open Tax Solver is an open-source tax filing software that offers users a free, and secure tax filing solution.
-                                                </strong><br><br>
-                                                I redesigned the UX/UI of Open Tax Solver, an open-source, free, and secure tax filing solution, to improve its usability, appearance, and features.
+                                                I redesigned the UX/UI of Open Tax Solver, an open-source tax filing solution, to improve its usability and features. In addition, I conducted qualitative research to discover design opportunities and used Sketch to create mockups.
                                             </h4>
                                         </div>
                                     </div>
@@ -109,12 +107,19 @@
                                 <div>
                                     <div class="row">
                                         <div class="col-sm-12">
-                                            <h3>UX/UI Issues</h3>
+                                            <h3>Challenges</h3>
                                         </div>
                                         <div class="col-sm-4">
                                             <p class="text-left content-copy">
-                                                The user interface is outdated and lacks usability. Users have to manually select forms they need to file. Moreover, users are unable to file electronically via OTS. They would have to print and mail the forms.
+                                                The user interface is outdated and lacks usability. Users have to select forms they need to file manually. Moreover, users are unable to file electronically via OTS. They would have to print and mail the forms.
                                             </p>
+                                            <ul>
+                                                <li><strong>Limited capability to maintain the program:</strong> The team had limited data and manpower to stay updated with the tax code changes every year. I need to identify what features would be the most important to our users since it’s impossible to imitate all other tax preparation software features.</li>
+                                                <br>
+                                                <li><strong>Users can’t e-file with OTS:</strong> the user would have to physically print out the tax forms and mail them to IRS with OTS since OTS cannot e-file. Therefore, features and assistance are needed to help users through the mailing and tracking process.</li>
+                                                <br>
+                                                <li><strong>How to establish trust:</strong> The tax form is full of sensitive personal information; how could we convince users to trust OTS with their data.</li>
+                                            </ul>
                                         </div>
                                         <div class="col-sm-8">
                                             <a data-toggle="lightbox" href="img/ots/ots_original.png"><img loading="lazy" class="img-responsive img-box  " src="img/ots/ots_original.png">
@@ -135,20 +140,18 @@
                                         </div>
                                         <div class="col-sm-4">
                                             <p class="text-left content-copy">
-                                                I talked to users who use tax preparation tools like TurboTax or HR Blocks. The conversation revolved around their understanding of the tax code and their experience with their tax preparation tools, specifically about their favorite features of the tools.
+                                                I conducted user interviews with folks who use tax preparation tools like TurboTax or HR Block. I asked them about their understanding of the tax code, their experience with tax preparation tools, and their favorite features of the tools.
                                                 <br><br>
-                                                Generally, they have a poor understanding of tax jargon and codes, they usually rely on the tax preparation tool to assist them. However, OTS does not really provide any assistance for the users at all.
+                                                Generally speaking, it seemed like most folks had a poor understanding of tax codes and jargon. As a result, most folks relied on the tax preparation tools to assist them. However, OTS does not provide any assistance for the users at all.
 
                                             </p>
                                         </div>
                                         <div class="col-sm-8">
                                             <blockquote>
-                                                I have no idea what forms I need, I just input numbers into TurboTax and it tells me what to do.
-                                            </blockquote>
+                                                I have no idea what forms I need, I just input numbers into TurboTax, and it tells me what to do. </blockquote>
                                             <br>
                                             <blockquote>
-                                                I want to see how much the prices changed in day/week/month
-                                            </blockquote>
+                                                I don't know the difference between resident aliens and nonresident aliens. They have tools to help me determine my status. </blockquote>
                                         </div>
                                     </div>
                                 </div>
@@ -157,6 +160,53 @@
                         <hr />
 
                         <!-- Target Users -->
+
+                        <div class="section fp-auto-height">
+                            <div class="page-wrapper">
+                                <div>
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <h3>Usability Research </h3>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <p class="text-left content-copy">
+                                                To establish the baseline usability of Open Tax Solver, I asked the users to pretend to file a tax return to try to identify the pain points and observe their usage of the software.
+                                            </p>
+
+                                            <ul class="content-copy text-left summary-ul">
+                                                <strong>Finding</strong><br>
+                                                <li>
+                                                    Not set expectation for no e-fling: user did not know they can’t e-file until the very end of the process
+                                                </li>
+                                                <li>
+                                                    Not sure if it’s safe because it looks outdated:
+                                                </li>
+                                                <li>
+                                                    Have no idea what the jargon means
+                                                </li>
+
+                                            </ul>
+                                        </div>
+                                        <div class="col-sm-8">
+                                            <blockquote>
+                                                It looks so old; I am not sure if I can trust it with my personal information
+                                            </blockquote>
+                                            <br>
+                                            <blockquote>
+                                                | I don’t know what [form schedule] to pick? What’s the schedule A, C, and D?
+                                            </blockquote>
+                                            <br>
+                                            <blockquote>
+                                                | So I have to print out the forms and mail them in? How would I know if the IRS gets them?
+                                            </blockquote>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <hr />
+
 
                         <div class="section fp-auto-height">
                             <div class="page-wrapper">
@@ -173,16 +223,16 @@
                                             <ul class="content-copy text-left summary-ul">
                                                 <strong>Design Direction</strong><br>
                                                 <li>
-                                                    Updated landing page and installation process
+                                                    Tools to help users understand the jargon.
                                                 </li>
                                                 <li>
-                                                    Tools to help users complete the forms
-                                                </li>
-                                                <li>
-                                                    Tools to help users select the forms they need
+                                                    Tools to help users select the forms they need.
                                                 </li>
                                                 <li>
                                                     Explicit mailing instructions and tracking information.
+                                                </li>
+                                                <li>
+                                                    Up to date landing page that explains the open-source nature of the software.
                                                 </li>
                                             </ul>
                                         </div>
@@ -215,7 +265,9 @@
                                     </div>
                                     <div class="row">
                                         <div class="col-sm-12">
-                                            <p class="content-copy">I experimented with different ways to show progress and encourage users to finish their filings. And different ways to assist the users with form selection and understand the jargon.
+                                            <p class="content-copy">
+                                                I experimented with different ways to show progress and encourage users to finish their filings. I also experimented with assisting users with selecting the correct tax forms and understanding the jargon.
+
                                             </p>
                                         </div>
                                         <div class="col-sm-8">
@@ -322,33 +374,37 @@
                                     <div class="row">
                                         <div class="col-sm-4">
                                             <p>
-                                                I presented the design to the main contributor and he pointed out some areas of concern. The questionnaire for form selection would need to updated every time the tax codes change, and they do not have the expertise nor the manpower to do so.
+                                                I presented the design to the main stakeholder, pointing out some areas that could be improved. First, the questionnaire for form selection would need to be updated every time the tax codes change, and Open Tax Solver does not have the expertise or manpower to do so right now.
                                             </p>
+                                            <ul>
+                                                <li>No questionnaire
+                                                </li>
+                                                <li>Maybe two modes for power and casual users
+                                                </li>
+                                                <li>Perhaps link to buy postage
+                                                </li>
+                                            </ul>
                                         </div>
                                         <div class="col-sm-8">
-                                            <blockquote>I can barely see what casting opportunities are out there; I have to go through my agent to land on any job.
-                                            </blockquote>
-                                            <br>
-                                            <blockquote>I would love to have someone manage the [exhibition] process, but at the same time, I would feel exploited if someone takes over completely.
-                                            </blockquote>
-                                            <br>
-                                            <blockquote>I use email chains or even Instagram to communicate with my clients. Sometimes it’s all over the place, but I have learned how to manage it.</blockquote>
+                                            <a data-toggle="lightbox" data-gallery="main-gallery" href="img/ots/ots_main1.png"><img loading="lazy" class="img-responsive img-box img-shadow" src="img/ots/ots_final.png">
+                                            </a>
                                         </div>
 
                                         <div class="col-sm-4">
                                             <p><strong>Changes</strong></p>
-                                            <ol>
+                                            <ul>
                                                 <li>3rd party site to see what forms to file link
                                                 </li>
-                                                <li>Link to postage
+                                                <li>Direct link to purchase postage on the final page
                                                 </li>
                                                 <li>Link to postage
                                                 </li>
-                                            </ol>
+                                            </ul>
                                         </div>
                                         <div class="col-sm-8">
                                             <a data-toggle="lightbox" data-gallery="main-gallery" href="img/ots/ots_main1.png"><img loading="lazy" class="img-responsive img-box img-shadow" src="img/ots/ots_final.png">
-                                            </a> <a data-toggle="lightbox" data-gallery="main-gallery" href="img/ots/ots_main1.png"><img loading="lazy" class="img-responsive img-box img-shadow" src="img/ots/ots_crossroad_new.png">
+                                            </a>
+                                            <a data-toggle="lightbox" data-gallery="main-gallery" href="img/ots/ots_main1.png"><img loading="lazy" class="img-responsive img-box img-shadow" src="img/ots/ots_crossroad_new.png">
                                             </a>
 
                                         </div>
@@ -364,9 +420,38 @@
                                 <div>
                                     <div class="row flex-center">
                                         <div class="col-sm-12">
+                                            <h3>Landing Page</h3>
+                                            <p class="text-left content-copy">
+                                                The new landing page focus on establishing trust by using metrics and introducing the concept of open-source software.
+                                            </p>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm-6">
+                                                <a data-toggle="lightbox" data-gallery="main-gallery" href="img/ots/ots_main1.png"><img loading="lazy" class="img-responsive img-box img-shadow" src="img/ots/ots_main1.png">
+                                                </a>
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <a data-toggle="lightbox" data-gallery="main-gallery" href="img/ots/ots_main2.png"><img loading="lazy" class="img-responsive img-box img-shadow" src="img/ots/ots_main2.png">
+                                                </a>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <hr />
+
+                        <!-- Main -->
+
+                        <div class="section fp-auto-height">
+                            <div class="page-wrapper">
+                                <div>
+                                    <div class="row flex-center">
+                                        <div class="col-sm-12">
                                             <h3>Main Page</h3>
                                             <p class="text-left content-copy">
-                                                The main page showcases the three primary steps of filing taxes with Open Tax Solver. Users can start a new filing or load the previous filing on this page.
+                                                The main page showcases the three main steps of filing taxes with Open Tax Solver to set expectations. In addition, users can start a new filing or load the previous filing on this page.
                                             </p>
                                         </div>
                                         <div class="row">
@@ -388,15 +473,14 @@
 
                         <!-- Qs -->
 
-                        <!--
                         <div class="section fp-auto-height">
                             <div class="page-wrapper">
                                 <div>
                                     <div class="row flex-center">
                                         <div class="col-sm-12">
-                                            <h3>Questionnaire</h3>
+                                            <h3>Tax Form Guide</h3>
                                             <p class="text-left content-copy">
-                                                A short questionnaire can help users determine the required tax forms for them. For more experienced tax filers, they can skip the questionnaire to select the forms directly.
+                                                A link to the tax form guide can help users determine the required tax forms for them. Then they can select the forms that they need.
                                             </p>
                                         </div>
                                         <div class="row">
@@ -414,7 +498,6 @@
                             </div>
                         </div>
                         <hr />
--->
 
                         <!-- Helper -->
 
@@ -425,7 +508,7 @@
                                         <div class="col-sm-12">
                                             <h3>Helper Dialogue</h3>
                                             <p class="text-left content-copy">
-                                                An interactive dialogue can help users with difficult parts of the forms. In this example, users can find out the dependent qualification by answering the questions in the dialogue.
+                                                An interactive dialogue could help users with the more complex parts of the forms. In this example, users can find out their dependent qualifications by answering the questions in the dialogue.
                                             </p>
                                         </div>
                                         <div class="row">
@@ -444,33 +527,7 @@
                         </div>
                         <hr />
 
-                        <!-- Tally -->
 
-                        <div class="section fp-auto-height">
-                            <div class="page-wrapper">
-                                <div>
-                                    <div class="row flex-center">
-                                        <div class="col-sm-12">
-                                            <h3>Tally Tool</h3>
-                                            <p class="text-left content-copy">
-                                                A tally dialogue can help users add up multiple numbers for one input field on the form. It also saves the entered numbers for future reviews. In this case, users can input several incomes to be added for the total income field.
-                                            </p>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-sm-6">
-                                                <a data-toggle="lightbox" data-gallery="help-gallery" href="img/ots/ots_autocalc.png"><img loading="lazy" class="img-responsive img-box img-shadow" src="img/ots/ots_helper1.png">
-                                                </a>
-                                            </div>
-                                            <div class="col-sm-6">
-                                                <a data-toggle="lightbox" data-gallery="help-gallery" href="img/ots/ots_tally2.png"><img loading="lazy" class="img-responsive img-box img-shadow" src="img/ots/ots_helper2.png">
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <hr />
                         <!-- Final Page-->
                         <div class="section fp-auto-height">
                             <div class="page-wrapper">
@@ -479,7 +536,7 @@
                                         <div class="col-sm-4">
                                             <h3>Report</h3>
                                             <p class="text-left content-copy">
-                                                As Open Tax Solver does not support the e-filing service, it displays tax agencies’ addresses and tracking information. Users can save or print the finished tax forms.
+                                                Since Open Tax Solver does not currently support e-filing, it displays tax agencies’ addresses and tracking information. Users can save or print the finished tax forms.
                                             </p>
                                         </div>
                                         <div class="col-sm-8">
@@ -499,21 +556,23 @@
                                         <div class="col-sm-6 col-sm-offset-3">
                                             <h3>What Now?</h3>
                                             <p>
-                                                Reached the product milestone and left due to other commitments; they later expanded to focus on Mongolia RE Market and now pivoted to AI RE investment SaaS product.
+                                                The project is still ongoing.
                                             </p>
 
                                         </div>
                                         <div class="col-sm-6 col-sm-offset-3">
-                                            <h3>Retrospective</h3>
+                                            <h3>Plan going forward</h3>
                                             <p>
-                                                <strong>Push back unreasonable design</strong><br>
-                                                I added a marquee on the front page to advertise the properties and show the recently bought shares on the platform because a founder requested it. I am not proud of that.
+                                                <strong>Frequent communication with the team:</strong><br>
+                                                I didn’t fully understand the complexity of tax compliance and the limitation of the group. If I understood that earlier, I could save a lot of time mapping out the questionnaire. But, unfortunately, I didn’t understand the complete picture of the constraint.
                                                 <br><br>
-                                                <strong>I do not want to do Front-End development for a living
-
+                                                <strong>Maybe users don’t need to understand the jargon:
                                                 </strong><br>
-                                                At the later stage, I transitioned to doing the front-end development for the platform. And to be honest, I enjoy working with a user much more than talking to a machine via code.
+                                                Instead of explaining the jargon to the user, maybe users don’t need to understand it. I can perhaps break the jargon down into several questions. For example, instead of explaining what a qualifying dependent would be, I can ask them some questions about their dependents
                                                 <br><br>
+                                                <strong>Narrower target user group:
+                                                </strong><br>
+                                                The user group identified might be too broad. I would reconsider who the target users would be and if it can be more aligned to the constraint of the platform. Maybe have to rethink what kind of features would power user need.
                                             </p>
                                         </div>
 
