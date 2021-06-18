@@ -164,6 +164,8 @@ small {
     padding: 0;
 }
 
+
+
 .page-wrapper .toc li {
     display: inline-block;
     margin: 0 0 6px 6px;
@@ -177,6 +179,12 @@ small {
     cursor: pointer;
 }
 
+:target {
+  display: block;
+  position: relative;
+  top: -100px; 
+  visibility: hidden;
+}
 
 .page-wrapper .toc li a:hover {
     color: #000;
