@@ -44,6 +44,14 @@ html {
     margin-bottom: 0;
 }
 
+.mt {
+    margin-top: 24px;
+}
+
+.mb {
+    margin-bottom: 24px;
+}
+
 .work-top {
     margin-top: 20vh;
 }
