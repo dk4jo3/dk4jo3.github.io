@@ -286,6 +286,11 @@ text-align: center;
     
     font-weight: 700;
     font-size: 0.8em;
+    text-align: center;
+}
+
+.masthead {
+    text-align: center;
 }
 
 .inner a {
