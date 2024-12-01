@@ -271,13 +271,12 @@ text-align: center;
 .content-list {
     font-weight: 500;
     color: #888;
-    font-size: 1.4em;
-    line-height: 1.8em;
+    font-size: 1.6em;
+    line-height: 1.6em;
+    margin-bottom: 1.2em;
 }
 
-.content-list a {
-    margin-top: 3%
-}
+
 /* Footer */
 
 .mastfoot {
@@ -339,7 +338,7 @@ text-align: center;
     font-weight: 700;
     font-size: 2em;
 }
-  
+
 .about-row {
     display: flex;
     align-items: center;
@@ -362,8 +361,8 @@ text-align: center;
  
 @media only screen and (min-width: 320px) {
     .content-list {
-        font-size: 1.2em;
-        line-height: 2em;
+        font-size: 1.6em;
+        line-height: 1.6em;
     }
     .masthead-nav > li > a {
         font-size: 0.8em;
@@ -385,7 +384,7 @@ text-align: center;
 
 @media only screen and (min-width: 480px) {
     .content-list {
-        font-size: 1.2em;
+        font-size: 1.6em;
     }
     .masthead-nav > li > a {
         font-size: 1.0em;
@@ -468,6 +467,6 @@ text-align: center;
     .masthead,
     .mastfoot,
     .cover-container {
-        width: 1366px;
+        width: 80vw;
     }
 }
