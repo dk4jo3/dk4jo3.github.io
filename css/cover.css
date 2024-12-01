@@ -355,6 +355,11 @@ text-align: center;
     margin: auto;
 }
 
+
+.photo-col img {
+    margin-bottom: 2em;
+}
+
 /*               *\
    MEDIA QUERIES
 \*               */
