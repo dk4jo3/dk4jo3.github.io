@@ -168,8 +168,9 @@ small {
 .page-wrapper ol li,
 .page-wrapper ul li {
     font-family: 'Raleway', sans-serif;
-    font-weight: 400;
+    font-weight: 500;
     text-align: left;
+    font-size: 1.6rem;
 }
 
 .page-wrapper .toc{
@@ -396,14 +397,4 @@ h4 {
         width: 100%;
         /* Must be percentage or pixels for horizontal alignment */
     }
-}
-
-@media only screen and (min-width: 992px) {
-
-    .masthead,
-    .mastfoot,
-    .cover-container {
-        width: 80vw;
-    }
-
 }

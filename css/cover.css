@@ -339,7 +339,7 @@ text-align: center;
     font-weight: 700;
     font-size: 2em;
 }
-
+  
 .about-row {
     display: flex;
     align-items: center;
@@ -468,6 +468,6 @@ text-align: center;
     .masthead,
     .mastfoot,
     .cover-container {
-        width: 80vw;
+        width: 1366px;
     }
 }
