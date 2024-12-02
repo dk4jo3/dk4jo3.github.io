@@ -52,7 +52,8 @@ html {
     margin-bottom: 24px;
 }
 
-.work-top {
+.work-top,
+.intro {
     margin-top: 20vh;
 }
 
@@ -69,8 +70,6 @@ html {
 /*page-wrapper*/
 .page-wrapper {
     padding: 24px;
-    height: 100vh;
-    display: flex;
     align-items: center;
 }
 
@@ -371,9 +370,9 @@ h4 {
         display: inherit
     }
 
-    .page-wrapper {
+/*    .page-wrapper {
         height: 100vh;
-    }
+    }*/
 
     .masthead {
         position: fixed;

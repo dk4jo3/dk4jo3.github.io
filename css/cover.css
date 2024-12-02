@@ -467,6 +467,6 @@ text-align: center;
     .masthead,
     .mastfoot,
     .cover-container {
-        width: 80vw;
+        width: 1366px;
     }
 }

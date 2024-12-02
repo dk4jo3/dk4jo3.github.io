@@ -20,7 +20,7 @@
     'use strict';
 
     // keeping central set of classnames and selectors
-    var WRAPPER =               'fullpage-wrapper';
+    var WRAPPER =               'fullsection';
     var WRAPPER_SEL =           '.' + WRAPPER;
 
     // slimscroll
