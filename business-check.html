@@ -59,7 +59,7 @@
 <style>
     h1,
     h2 {
-        color: #ff9900;
+        color: #AE6400;
     }
 
     h2 {
@@ -92,12 +92,11 @@
                                 <li>|</li>
                                 <li><a href="#PG">Problem & Goals</a></li>
                                 <li>|</li>
-                                <li><a href="#SP"> Strategy & Process</a></li>
+                                <li><a href="#SP">Strategy & Process</a></li>
                                 <li>|</li>
                                 <li><a href="#OW">Outcomes & Wins</a></li>
                                 <li>|</li>
                                 <li><a href="#RN">Reflection & Next Steps</a></li>
-                                <li>|</li>
                             </ul>
                         </div>
                     </div>
@@ -107,8 +106,7 @@
                 <div class="page-wrapper">
                     <div class="row">
                         <div class="col-md-8 col-md-offset-2 col-sm-12 insight-header">
-                            <h2 id="BS">Snapshot
-                            </h2>
+                            <h2>Snapshot</h2>
                             <hr />
                         </div>
                         <div class="col-md-8 col-md-offset-2 col-sm-12">
@@ -161,7 +159,7 @@
                     <div class="row">
 
                         <div class="col-md-8 col-md-offset-2 col-sm-12">
-                            <h2>1. Business & Stakes</h2>
+                            <h2 id="BS">1. Business & Stakes</h2>
                             <p clas="content-copy text-left">
                                 The work began as a narrow request: “Can we drop a SQL-builder UI into the
                                 product?”However, discovery revealed a larger issue: hundreds of off-platform scripts
@@ -245,8 +243,36 @@
                         </div>
                     </div>
                     <div class="col-md-8 col-md-offset-2 col-sm-12">
-                        <a data-toggle="lightbox" href="img/BizCheck/step2-sqlbuilder2.png"><img loading=""
-                                class="img-responsive img-box center-block" src="img/BizCheck/step2-sqlbuilder2.png">
+                        <a data-toggle="lightbox" href="img/BizCheck/2.1-repo-process.png"><img loading=""
+                                class="img-responsive img-box center-block" src="img/BizCheck/2.1-repo-process.png">
+                        </a>
+                    </div>
+                    <div class="col-md-4 col-md-offset-2 col-sm-12">
+                        <a data-toggle="lightbox" href="img/BizCheck/ia-1.png"><img loading=""
+                                class="img-responsive img-box center-block" src="img/BizCheck/ia-1.png">
+                        </a>
+                    </div>"
+                    <div class="col-md-4 col-sm-12" style="display: flex;flex-direction: column; gap: 1.2em;">
+                        <a data-toggle="lightbox" href="img/BizCheck/create-flowchart.png"><img loading=""
+                                class="img-responsive img-box center-block" src="img/BizCheck/create-flowchart.png">
+                        </a>
+                        <a data-toggle="lightbox" href="img/BizCheck/create-old.png"><img loading=""
+                                class="img-responsive img-box center-block" src="img/BizCheck/create-old.png">
+                        </a>
+                    </div>
+                    <div class="col-md-8 col-md-offset-2 col-sm-12">
+                        <a data-toggle="lightbox" href="img/BizCheck/create-ui-old.png"><img loading=""
+                                class="img-responsive img-box center-block" src="img/BizCheck/create-ui-old.png">
+                        </a>
+                    </div>
+                    <div class="col-md-8 col-md-offset-2 col-sm-12">
+                        <a data-toggle="lightbox" href="img/BizCheck/DQM-1.png"><img loading=""
+                                class="img-responsive img-box center-block" src="img/BizCheck/DQM-1.png">
+                        </a>
+                    </div>
+                    <div class="col-md-8 col-md-offset-2 col-sm-12">
+                        <a data-toggle="lightbox" href="img/BizCheck/BRE-ui-old.png"><img loading=""
+                                class="img-responsive img-box center-block" src="img/BizCheck/BRE-ui-old.png">
                         </a>
                     </div>
                 </div>
@@ -272,168 +298,197 @@
                             </p>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-md-8 col-md-offset-2 col-sm-12">
-                            <h3>3.2  Concept & Trade-offs</h3>
-                            <p class="content-copy text-left">
-                                The key part is how we can help users (highlight persona here) create checks when they
-                                are not proficient in SQL? Together, we explored a couple of options to understand the
-                                pros and cons. </p>
-                        </div>
-                        <div class="col-md-8 col-md-offset-2 col-sm-12">
-                            <table class="table content-table content-copy">
-                                <tbody>
-                                    <thead>
-                                        <tr>
-                                            <th scope="col">Options
-                                            </th>
-                                            <th scope="col">Kept?
-                                            </th>
-                                            <th scope="col">Rationale
-                                            </th>
-                                        </tr>
-                                    </thead>
+                    <div class="col-md-8 col-md-offset-2 col-sm-12">
+                        <h3>3.2 Concept & Trade-offs</h3>
+                        <p class="content-copy text-left">
+                            The key part is how we can help users (highlight persona here) create checks when they
+                            are not proficient in SQL? Together, we explored a couple of options to understand the
+                            pros and cons. </p>
+                    </div>
+                    <div class="col-md-8 col-md-offset-2 col-sm-12">
+                        <table class="table content-table content-copy">
+                            <tbody>
+                                <thead>
                                     <tr>
-                                        <td>SQL-only UI editor</td>
-                                        <td>❌</td>
-                                        <td>Does not address the needs of non-technical users. This also raises security
-                                            concerns, as users can utilize transformative SQL statements to modify
-                                            source data.
-                                        </td>
+                                        <th scope="col">Options
+                                        </th>
+                                        <th scope="col">Kept?
+                                        </th>
+                                        <th scope="col">Rationale
+                                        </th>
                                     </tr>
+                                </thead>
+                                <tr>
+                                    <td>SQL-only UI editor</td>
+                                    <td>❌</td>
+                                    <td>Does not address the needs of non-technical users. This also raises security
+                                        concerns, as users can utilize transformative SQL statements to modify
+                                        source data.
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Drag-and-drop builder</td>
+                                    <td>❌</td>
+                                    <td>Despite a high development effort, it still doesn’t address the needs of
+                                        non-technical users.
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Templated Check Builder</td>
+                                    <td>❌</td>
+                                    <td>High lift; requires analyzing the SQL structure of all existing checks to
+                                        identify common patterns that can be templatized.
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Hybrid toggle (Simple Checks Template + SQL)</td>
+                                    <td>✅</td>
+                                    <td>Balances ease + power; medium effort
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="col-md-8 col-md-offset-2 col-sm-12">
+                        <p class="content-copy text-left">
+                            We ultimately chose the hybrid approach; not the most intuitive option for every user,
+                            but the one that struck the right balance between usability, coverage of key use cases,
+                            and what was feasible within our time and engineering constraints. </p>
+                    </div>
+                    <div class="col-md-8 col-md-offset-2 col-sm-12">
+                        <a data-toggle="lightbox" href="img/BizCheck/step2-sqlbuilder.png"><img loading=""
+                                class="img-responsive img-box center-block" src="img/BizCheck/step2-sqlbuilder.png">
+                        </a>
+                    </div>
+                    <div class="col-md-8 col-md-offset-2 col-sm-12">
+                        <a data-toggle="lightbox" href="img/BizCheck/step2-sqlbuilder2.png"><img loading=""
+                                class="img-responsive img-box center-block" src="img/BizCheck/step2-sqlbuilder2.png">
+                        </a>
+                    </div>
+                    <div class="col-md-8 col-md-offset-2 col-sm-12">
+                        <a data-toggle="lightbox" href="img/BizCheck/step2-expression.png"><img loading=""
+                                class="img-responsive img-box center-block" src="img/BizCheck/step2-expression.png">
+                        </a>
+                    </div>
+                    <div class="col-md-8 col-md-offset-2 col-sm-12">
+                        <h3>3.3 PPS Buy-in & Conflict Resolution</h3>
+                        <p class="content-copy text-left">
+                            Cascade reviews with Engineering, QA, and Architecture kept patterns reusable and
+                            developer-friendly.<br><br>
+                            The toughest audience was the PPS Leadership. Their initial pushback stemmed from two
+                            core tensions:
+                        </p>
+                        <ol>
+                            <li>Job security concerns: The self-serve shift was perceived as a potential threat to
+                                their roles
+                            </li>
+                            <li>Misalignment on feature priorities: they had a backlog of technical needs that
+                                didn’t always line up with the PM’s vision for client-facing tooling
+                            </li>
+                        </ol>
+                        <p class="content-copy text-left">
+                            As a result, feedback was slow and guarded, with some gatekeeping around access to
+                            scripts and process logic.
+                        </p>
+                    </div>
+                    <div class="col-md-8 col-md-offset-2 col-sm-12 quotes content-copy">
+                        <blockquote>Why is this being prioritized? We’ve suggested several other items that feel
+                            like higher priorities.”
+                        </blockquote>
+                        <br>
+                        <blockquote>What’s the plan for the SQLs we’ve been maintaining? Migrating everything to
+                            this new feature will take a lot of time.”
+                        </blockquote>
+                        <br>
+                        <blockquote>“This isn’t right. We need to decide whether this check runs before or after
+                            filtering. That distinction is important to us.”</blockquote>
+                    </div>
+                    <div class="col-md-8 col-md-offset-2 col-sm-12">
+                        <p class="content-copy text-left">
+                            I worked closely with the PM to reframe the feature as workload relief: highlighting
+                            version control, reusable import libraries, and reduced client confusion. That pivot
+                            changed the tone. After two rounds of iteration, including integrating their tasks
+                            around sequencing and library import, they signed on and even assigned a dedicated PPS
+                            analyst to help us
+                        </p>
+                    </div>
+
+                    <div class="col-md-4 col-md-offset-2 col-sm-12">
+                        <a data-toggle="lightbox" href="img/BizCheck/ia-2.png"><img loading=""
+                                class="img-responsive img-box center-block" src="img/BizCheck/ia-2.png">
+                        </a>
+                    </div>"
+                    <div class="col-md-4 col-sm-12" style="display: flex;flex-direction: column; gap: 1.2em;">
+                        <a data-toggle="lightbox" href="img/BizCheck/create-new.png"><img loading=""
+                                class="img-responsive img-box center-block" src="img/BizCheck/create-new.png">
+                        </a>
+                        <a data-toggle="lightbox" href="img/BizCheck/dqm-new.png"><img loading=""
+                                class="img-responsive img-box center-block" src="img/BizCheck/dqm-new.png">
+                        </a>
+                    </div>
+                    <div class="col-md-8 col-md-offset-2 col-sm-12">
+                        <h3>3.4 Scope Decisions: Feature-Cut Matrix</h3>
+                        <p class="content-copy text-left">
+                            With the PPS feedback, we surfaced a more complete feature set, but not everything could
+                            fit into the first iteration. By partnering with the PM and working closely with
+                            Engineering to assess effort and trade-offs, we prioritized what to keep, what to defer,
+                            and what would deliver the most impact with the least complexity.
+                        </p>
+                    </div>
+                    <div class="col-md-8 col-md-offset-2 col-sm-12">
+                        <table class="table content-table content-copy">
+                            <tbody>
+                                <thead>
                                     <tr>
-                                        <td>Drag-and-drop builder</td>
-                                        <td>❌</td>
-                                        <td>Despite a high development effort, it still doesn’t address the needs of
-                                            non-technical users.
-                                        </td>
+                                        <th scope="col">Feature
+                                        </th>
+                                        <th scope="col">Impact
+                                        </th>
+                                        <th scope="col">Effort
+                                        </th>
+                                        <th scope="col">Decision
+                                        </th>
+                                        <th scope="col">Why
+                                        </th>
                                     </tr>
-                                    <tr>
-                                        <td>Templated Check Builder</td>
-                                        <td>❌</td>
-                                        <td>High lift; requires analyzing the SQL structure of all existing checks to
-                                            identify common patterns that can be templatized.
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>Hybrid toggle (Simple Checks Template + SQL)</td>
-                                        <td>✅</td>
-                                        <td>Balances ease + power; medium effort
-                                        </td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                        <div class="col-md-8 col-md-offset-2 col-sm-12">
-                            <p class="content-copy text-left">
-                                We ultimately chose the hybrid approach; not the most intuitive option for every user,
-                                but the one that struck the right balance between usability, coverage of key use cases,
-                                and what was feasible within our time and engineering constraints. </p>
-                        </div>
-                        <div class="col-md-8 col-md-offset-2 col-sm-12">
-                            <h3>3.3 PPS Buy-in & Conflict Resolution</h3>
-                            <p class="content-copy text-left">
-                                Cascade reviews with Engineering, QA, and Architecture kept patterns reusable and
-                                developer-friendly.<br><br>
-                                The toughest audience was the PPS Leadership. Their initial pushback stemmed from two
-                                core tensions:
-                            </p>
-                            <ol>
-                                <li>Job security concerns: The self-serve shift was perceived as a potential threat to
-                                    their roles
-                                </li>
-                                <li>Misalignment on feature priorities: they had a backlog of technical needs that
-                                    didn’t always line up with the PM’s vision for client-facing tooling
-                                </li>
-                            </ol>
-                            <p class="content-copy text-left">
-                                As a result, feedback was slow and guarded, with some gatekeeping around access to
-                                scripts and process logic.
-                            </p>
-                        </div>
-                        <div class="col-md-8 col-md-offset-2 col-sm-12 quotes content-copy">
-                            <blockquote>Why is this being prioritized? We’ve suggested several other items that feel
-                                like higher priorities.”
-                            </blockquote>
-                            <br>
-                            <blockquote>What’s the plan for the SQLs we’ve been maintaining? Migrating everything to
-                                this new feature will take a lot of time.”
-                            </blockquote>
-                            <br>
-                            <blockquote>“This isn’t right. We need to decide whether this check runs before or after
-                                filtering. That distinction is important to us.”</blockquote>
-                        </div>
-                        <div class="col-md-8 col-md-offset-2 col-sm-12">
-                            <p class="content-copy text-left">
-                                I worked closely with the PM to reframe the feature as workload relief: highlighting
-                                version control, reusable import libraries, and reduced client confusion. That pivot
-                                changed the tone. After two rounds of iteration, including integrating their tasks
-                                around sequencing and library import, they signed on and even assigned a dedicated PPS
-                                analyst to help us
-                            </p>
-                        </div>
-                        <div class="col-md-8 col-md-offset-2 col-sm-12">
-                            <h3>Scope Decisions: Feature-Cut Matrix</h3>
-                            <p class="content-copy text-left">
-                                With the PPS feedback, we surfaced a more complete feature set, but not everything could
-                                fit into the first iteration. By partnering with the PM and working closely with
-                                Engineering to assess effort and trade-offs, we prioritized what to keep, what to defer,
-                                and what would deliver the most impact with the least complexity.
-                            </p>
-                            <table class="table content-table content-copy">
-                                <tbody>
-                                    <thead>
-                                        <tr>
-                                            <th scope="col">Feature
-                                            </th>
-                                            <th scope="col">Impact
-                                            </th>
-                                            <th scope="col">Effort
-                                            </th>
-                                            <th scope="col">Decision
-                                            </th>
-                                            <th scope="col">Why
-                                            </th>
-                                        </tr>
-                                    </thead>
-                                    <tr>
-                                        <td>Hybrid builder</td>
-                                        <td>High</td>
-                                        <td>Medium</td>
-                                        <td>MVP</td>
-                                        <td>Core to self-serve</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Sequencing toggle</td>
-                                        <td>Medium</td>
-                                        <td>Low</td>
-                                        <td>MVP</td>
-                                        <td>Data accuracy</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Import library</td>
-                                        <td>Medium</td>
-                                        <td>Low</td>
-                                        <td>MVP</td>
-                                        <td>Smooth migration</td>
-                                    </tr>
-                                    <tr>
-                                        <td>AI anomaly detection</td>
-                                        <td>High</td>
-                                        <td>High</td>
-                                        <td>Later</td>
-                                        <td>Need ML Team</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Multi-level reporting</td>
-                                        <td>Med</td>
-                                        <td>Medium</td>
-                                        <td>Later</td>
-                                        <td>Out of the sprint</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
+                                </thead>
+                                <tr>
+                                    <td>Hybrid builder</td>
+                                    <td>High</td>
+                                    <td>Medium</td>
+                                    <td>MVP</td>
+                                    <td>Core to self-serve</td>
+                                </tr>
+                                <tr>
+                                    <td>Sequencing toggle</td>
+                                    <td>Medium</td>
+                                    <td>Low</td>
+                                    <td>MVP</td>
+                                    <td>Data accuracy</td>
+                                </tr>
+                                <tr>
+                                    <td>Import library</td>
+                                    <td>Medium</td>
+                                    <td>Low</td>
+                                    <td>MVP</td>
+                                    <td>Smooth migration</td>
+                                </tr>
+                                <tr>
+                                    <td>AI anomaly detection</td>
+                                    <td>High</td>
+                                    <td>High</td>
+                                    <td>Later</td>
+                                    <td>Need ML Team</td>
+                                </tr>
+                                <tr>
+                                    <td>Multi-level reporting</td>
+                                    <td>Med</td>
+                                    <td>Medium</td>
+                                    <td>Later</td>
+                                    <td>Out of the sprint</td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
                 </div>
 
@@ -442,7 +497,7 @@
                 <div class="page-wrapper">
                     <div class="row">
                         <div class="col-md-8 col-md-offset-2 col-sm-12">
-                            <h2>4. Business & Stakes</h2>
+                            <h2 id="OW">4. Outcomes & Wins</h2>
                             <hr />
                             <p clas="content-copy text-left">
                                 The work began as a narrow request: “Can we drop a SQL-builder UI into the
@@ -509,8 +564,8 @@
                 <div class="page-wrapper">
                     <div class="row">
                         <div class="col-md-8 col-md-offset-2 col-sm-12">
-                            <h2>5  Reflection & Next Steps</h2>
-                            <hr />
+                            <h2 id="RN">5. Reflection & Next Steps</h2>
+                            <hr/>
                             <p clas="content-copy text-left">
                                 <strong>What worked:</strong>
                                 Low-fidelity flowcharts helped align teams early by exposing technical constraints and
@@ -535,17 +590,16 @@
                         </div>
                     </div>
                 </div>
+
+
+
+                <div id="footer">
+                </div>
+                <!-- footer close div -->
             </div>
-
-
-
-            <div id="footer">
-            </div>
-            <!-- footer close div -->
+            <!-- cover container close div -->
         </div>
-        <!-- cover container close div -->
-    </div>
-    <!-- site wrapper inner close div -->
+        <!-- site wrapper inner close div -->
     </div>
     <!-- site wrapper close div -->
     <!-- Bootstrap core JavaScript

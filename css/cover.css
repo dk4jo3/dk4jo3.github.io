@@ -1,7 +1,6 @@
 /* font import */
 
-
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;700;900&family=Playfair+Display:wght@400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
 
 /*5/25 3:13*/
 
@@ -83,7 +82,7 @@ a:hover {
 
 html,
 body {
-    font-family: 'Playfair Display', sans-serif;
+    font-family: 'Libre Baskerville', serif;
     font-weight: 500;
     height: 100%;
     background-color: #FFF;
@@ -98,7 +97,7 @@ body {
 /*for all smaller font*/
 
 .content-copy {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Source Sans 3', sans-serif;
     font-weight: 500;
 }
 
@@ -354,6 +353,7 @@ text-align: center;
 
 .about-copy {
     text-align: left;
+    font-size: 1.2em;
 }
 
 .headshot-pic {
