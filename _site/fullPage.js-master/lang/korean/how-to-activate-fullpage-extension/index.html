@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>fullPage.js 확장 프로그램을 활성화하는 법 | dk4jo3.github.io</title>
+<meta name="generator" content="Jekyll v3.10.0" />
+<meta property="og:title" content="fullPage.js 확장 프로그램을 활성화하는 법" />
+<meta property="og:locale" content="en_US" />
+<link rel="canonical" href="http://localhost:4000/fullPage.js-master/lang/korean/how-to-activate-fullpage-extension/" />
+<meta property="og:url" content="http://localhost:4000/fullPage.js-master/lang/korean/how-to-activate-fullpage-extension/" />
+<meta property="og:site_name" content="dk4jo3.github.io" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="fullPage.js 확장 프로그램을 활성화하는 법" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","headline":"fullPage.js 확장 프로그램을 활성화하는 법","url":"http://localhost:4000/fullPage.js-master/lang/korean/how-to-activate-fullpage-extension/"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="stylesheet" href="/assets/css/style.css?v=94749a9f3a74db4fdebb4d4af0297d4eeb9e8e2f">
+    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+
+<!-- Setup Google Analytics -->
+
+
+
+<!-- You can set your favicon here -->
+<!-- link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" -->
+
+<!-- end custom head snippets -->
+
+  </head>
+  <body>
+    <div class="container-lg px-3 my-5 markdown-body">
+      
+      <h1><a href="http://localhost:4000/">dk4jo3.github.io</a></h1>
+      
+
+      <h1 id="fullpagejs-확장-프로그램을-활성화하는-법">fullPage.js 확장 프로그램을 활성화하는 법</h1>
+
+<ol>
+  <li>확장 프로그램을 구매하셨을 때 이메일로 전송된 <a href="https://alvarotrigo.com/fullPage/extensions/activationKey.html">URL</a>에 접속하세요. (https://alvarotrigo.com/fullPage/extensions/activationKey.html)</li>
+  <li>아이템 구매시 받으신 라이센스 키를 창에 입력하세요. 구매 확인 이메일에도 있습니다.</li>
+  <li>귀하의 제품 활성화 키를 획득하시려면 도메인 이름이 추가로 필요할 수 있습니다.</li>
+  <li><code class="language-plaintext highlighter-rouge">nameOfExtension + "Key": key</code>: 양식으로 fullpage.js 초기 설정에 있는 옵션을 추가해서 특정 확장 프로그램용 활성화 키를 추가하세요.</li>
+</ol>
+
+<p>예시:</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">$</span><span class="p">(</span><span class="dl">'</span><span class="s1">#fullpage</span><span class="dl">'</span><span class="p">).</span><span class="nx">fullPage</span><span class="p">({</span>
+    <span class="na">fadingEffect</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span>
+    <span class="na">fadingEffectKey</span><span class="p">:</span> <span class="dl">'</span><span class="s1">활성화 키가 여기에 위치해야 합니다</span><span class="dl">'</span><span class="p">,</span>
+<span class="p">});</span>
+</code></pre></div></div>
+
+<p>나머지 확장 프로그램을 쓰실 때도 마찬가지입니다. 현재 나와 있는 모든 확장 키 옵션이 아래에 열거되어 있습니다:</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">fadingEffectKey</code></li>
+  <li><code class="language-plaintext highlighter-rouge">responsiveSlidesKey</code></li>
+  <li><code class="language-plaintext highlighter-rouge">continuousHorizontalKey</code></li>
+  <li><code class="language-plaintext highlighter-rouge">interlockedSlidesKey</code></li>
+  <li><code class="language-plaintext highlighter-rouge">scrollHorizontallyKey</code></li>
+  <li><code class="language-plaintext highlighter-rouge">resetSlidersKey</code></li>
+  <li><code class="language-plaintext highlighter-rouge">offsetSectionsKey</code></li>
+  <li><code class="language-plaintext highlighter-rouge">dragAndMoveKey</code></li>
+  <li><code class="language-plaintext highlighter-rouge">parallaxKey</code></li>
+</ul>
+
+<p><a href="https://github.com/alvarotrigo/fullPage.js#use-extensions">확장 프로그램 사용</a>에서도 설명드렸듯이 확장 프로그램을 쓰시려면 보통 쓰는 fullPage.js(<code class="language-plaintext highlighter-rouge">jquery.fullpage.js</code>) 파일 대신 꼭 <a href="https://github.com/alvarotrigo/fullPage.js/blob/master/dist/jquery.fullpage.extensions.min.js"><code class="language-plaintext highlighter-rouge">jquery.fullpage.extensions.min.js</code></a>를 쓰셔야 한다는 걸 염두해 주세요.</p>
+
+<h3 id="개발-환경--웹사이트에서는-어떻게-해야-하나요">개발 환경 / 웹사이트에서는 어떻게 해야 하나요?</h3>
+<p>로컬호스트 환경에서는 활성화 키가 필요없습니다. 다른 외부 개발 환경에서 쓰고자 하신다면 해당 도메인에 쓰실 활성화 키를 얻으신 다음 구동하신 후 나중에 추가 활성화 키를 <a href="http://alvarotrigo.com/#contact">저에게 요청해 주세요</a>.</p>
+
+
+
+      
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
+    <script>anchors.add();</script>
+  </body>
+</html>

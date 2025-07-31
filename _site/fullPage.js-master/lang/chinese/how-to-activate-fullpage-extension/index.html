@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>如何激活fullPage.js扩展 | dk4jo3.github.io</title>
+<meta name="generator" content="Jekyll v3.10.0" />
+<meta property="og:title" content="如何激活fullPage.js扩展" />
+<meta property="og:locale" content="en_US" />
+<link rel="canonical" href="http://localhost:4000/fullPage.js-master/lang/chinese/how-to-activate-fullpage-extension/" />
+<meta property="og:url" content="http://localhost:4000/fullPage.js-master/lang/chinese/how-to-activate-fullpage-extension/" />
+<meta property="og:site_name" content="dk4jo3.github.io" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="如何激活fullPage.js扩展" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","headline":"如何激活fullPage.js扩展","url":"http://localhost:4000/fullPage.js-master/lang/chinese/how-to-activate-fullpage-extension/"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="stylesheet" href="/assets/css/style.css?v=94749a9f3a74db4fdebb4d4af0297d4eeb9e8e2f">
+    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+
+<!-- Setup Google Analytics -->
+
+
+
+<!-- You can set your favicon here -->
+<!-- link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" -->
+
+<!-- end custom head snippets -->
+
+  </head>
+  <body>
+    <div class="container-lg px-3 my-5 markdown-body">
+      
+      <h1><a href="http://localhost:4000/">dk4jo3.github.io</a></h1>
+      
+
+      <h1 id="如何激活fullpagejs扩展">如何激活fullPage.js扩展</h1>
+
+<ol>
+  <li>访问 https://alvarotrigo.com/fullPage/extensions/activationKey.html. (当购买扩展时，此链接会发送到你的邮箱中)</li>
+  <li>介绍在购买物品时给予您的<strong>许可证密钥</strong>。也可以在您的购买确认邮件中找到。</li>
+  <li>可能需要域名才能获取产品的<strong>激活密钥</strong>。</li>
+  <li>拿到扩展和域的激活密钥（在前面的步骤中生成）后，你需要在fullpage.js初始化中添加一个选项，其形式为<code class="language-plaintext highlighter-rouge">nameOfExtension + "Key": key</code>。</li>
+</ol>
+
+<p>例如：</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">$</span><span class="p">(</span><span class="dl">'</span><span class="s1">#fullpage</span><span class="dl">'</span><span class="p">).</span><span class="nx">fullPage</span><span class="p">({</span>
+    <span class="na">fadingEffect</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span>
+    <span class="na">fadingEffectKey</span><span class="p">:</span> <span class="dl">'</span><span class="s1">激活密钥应在这里</span><span class="dl">'</span><span class="p">,</span>
+<span class="p">});</span>
+</code></pre></div></div>
+
+<p>如果您已使用扩展，则其余的扩展名也是如此。
+以下是目前所有的扩展关键字选项：</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">fadingEffectKey</code></li>
+  <li><code class="language-plaintext highlighter-rouge">responsiveSlidesKey</code></li>
+  <li><code class="language-plaintext highlighter-rouge">continuousHorizontalKey</code></li>
+  <li><code class="language-plaintext highlighter-rouge">interlockedSlidesKey</code></li>
+  <li><code class="language-plaintext highlighter-rouge">scrollHorizontallyKey</code></li>
+  <li><code class="language-plaintext highlighter-rouge">resetSlidersKey</code></li>
+  <li><code class="language-plaintext highlighter-rouge">offsetSectionsKey</code></li>
+  <li><code class="language-plaintext highlighter-rouge">dragAndMoveKey</code></li>
+  <li><code class="language-plaintext highlighter-rouge">parallaxKey</code></li>
+</ul>
+
+<p>请记住，如<a href="https://github.com/alvarotrigo/fullPage.js#use-extensions">扩展的使用</a>[]中所介绍的，使用扩展需要调用<a href="https://github.com/alvarotrigo/fullPage.js/blob/master/dist/jquery.fullpage.extensions.min.js"><code class="language-plaintext highlighter-rouge">jquery.fullpage.extensions.min.js</code></a>，而不像平常的fullPage.js文件（<code class="language-plaintext highlighter-rouge">jquery.fullpage.js</code>）那样使用扩展。</p>
+
+<h3 id="如何做开发环境网站">如何做开发环境/网站？</h3>
+<p>本地主机环境不需要激活密钥。
+如果您需要在另一个外部开发环境中使用它，则可以获取该域的激活密钥，在转移到产品中后再<a href="http://alvarotrigo.com/#contact">询问我</a> 要另一个激活密钥。</p>
+
+<h3 id="许可证密钥与激活密钥">许可证密钥与激活密钥</h3>
+<p>两者是不同的密钥。</p>
+<ul>
+  <li>购买任何扩展程序时，您将获得<strong>许可证密钥</strong>。</li>
+  <li>激活特定域的扩展时，您将获得<strong>激活密钥</strong> （除非使用“无限许可证”）。 生成<strong>激活密钥</strong>需要<strong>许可证密钥</strong>。</li>
+</ul>
+
+<p>许可证密钥由4组字符组成，每组字符为8个字符(<code class="language-plaintext highlighter-rouge">XXXXXXXX-XXXXXXXX-XXXXXXXX-XXXXXXXX</code>)。激活密钥的长度可变，且不是由分隔的字符组组成(<code class="language-plaintext highlighter-rouge">XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</code>)。不要将两者混淆。</p>
+
+
+      
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
+    <script>anchors.add();</script>
+  </body>
+</html>

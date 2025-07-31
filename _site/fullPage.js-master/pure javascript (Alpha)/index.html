@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>fullPage.js pure Javascript version | dk4jo3.github.io</title>
+<meta name="generator" content="Jekyll v3.10.0" />
+<meta property="og:title" content="fullPage.js pure Javascript version" />
+<meta property="og:locale" content="en_US" />
+<link rel="canonical" href="http://localhost:4000/fullPage.js-master/pure%20javascript%20(Alpha)/" />
+<meta property="og:url" content="http://localhost:4000/fullPage.js-master/pure%20javascript%20(Alpha)/" />
+<meta property="og:site_name" content="dk4jo3.github.io" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="fullPage.js pure Javascript version" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","headline":"fullPage.js pure Javascript version","url":"http://localhost:4000/fullPage.js-master/pure%20javascript%20(Alpha)/"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="stylesheet" href="/assets/css/style.css?v=94749a9f3a74db4fdebb4d4af0297d4eeb9e8e2f">
+    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+
+<!-- Setup Google Analytics -->
+
+
+
+<!-- You can set your favicon here -->
+<!-- link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" -->
+
+<!-- end custom head snippets -->
+
+  </head>
+  <body>
+    <div class="container-lg px-3 my-5 markdown-body">
+      
+      <h1><a href="http://localhost:4000/">dk4jo3.github.io</a></h1>
+      
+
+      <h1 id="fullpagejs-pure-javascript-version">fullPage.js pure Javascript version</h1>
+<p><img src="https://raw.github.com/alvarotrigo/fullPage.js/master/examples/imgs/intro.png" alt="preview" />
+<img src="https://raw.github.com/alvarotrigo/fullPage.js/master/examples/imgs/compatible.gif" alt="compatibility" /></p>
+
+<p><img src="http://img.shields.io/badge/fullPage.js-v0.0.5-brightgreen.svg" alt="javascript.fullPage.js version" />
+<a href="http://opensource.org/licenses/MIT"><img src="http://img.shields.io/badge/License-MIT-blue.svg" alt="License" /></a>
+6Kb gziped!</p>
+
+<ul>
+  <li><a href="http://alvarotrigo.com/fullPage/pure-javascript/">Live demo</a></li>
+</ul>
+
+<p>Invite me to a coffee
+<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&amp;business=BEK5JQCQMED4J&amp;lc=GB&amp;item_name=fullPage%2ejs&amp;currency_code=USD&amp;bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted"><img src="https://www.paypalobjects.com/en_US/GB/i/btn/btn_donateCC_LG.gif" alt="Donate" /></a></p>
+
+<h2 id="introduction">Introduction</h2>
+
+<p>This is in Alpha version and support for it won’t be provided yet.
+This light version of fullpage.js won’t provide some options available in the jQuery version such as:</p>
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">responsiveWidth</code> and <code class="language-plaintext highlighter-rouge">responsiveHeight</code></li>
+  <li><code class="language-plaintext highlighter-rouge">lockAnchors</code></li>
+  <li><code class="language-plaintext highlighter-rouge">scrollOverflow</code></li>
+  <li><code class="language-plaintext highlighter-rouge">verticalCentered</code></li>
+  <li><code class="language-plaintext highlighter-rouge">continuousVertical</code></li>
+  <li><code class="language-plaintext highlighter-rouge">loopBottom</code></li>
+  <li><code class="language-plaintext highlighter-rouge">loopTop</code></li>
+  <li><code class="language-plaintext highlighter-rouge">normalScrollElements</code></li>
+  <li><code class="language-plaintext highlighter-rouge">normalScrollElementTouchThreshold</code></li>
+  <li><code class="language-plaintext highlighter-rouge">controlArrowColor</code></li>
+  <li><code class="language-plaintext highlighter-rouge">sectionsColor</code></li>
+  <li><code class="language-plaintext highlighter-rouge">paddingTop</code></li>
+  <li><code class="language-plaintext highlighter-rouge">paddingBottom</code></li>
+  <li><code class="language-plaintext highlighter-rouge">fixedElements</code></li>
+</ul>
+
+<p>And other features such as:</p>
+
+<ul>
+  <li>Any extension</li>
+  <li><code class="language-plaintext highlighter-rouge">setAllowScrolling</code></li>
+</ul>
+
+<h2 id="compatibility">Compatibility</h2>
+<p>fullPage.js is fully functional on all modern browsers, as well as some old ones such as Internet Explorer 8, 9, Opera 12, etc.
+It works with browsers with CSS3 support and with the ones which don’t have it, making it ideal for old browsers compatibility.
+It also provides touch support for mobile phones, tablets and touch screen computers.</p>
+
+<h2 id="usage">Usage</h2>
+<p>As you can see in the <a href="https://github.com/alvarotrigo/fullPage.js/blob/master/pure%20javascript%20(Alpha)/demo.html">demo file</a>, you will need to include:</p>
+
+<ul>
+  <li>javascript.fullPage.js (or its minified version)</li>
+  <li>javascript.fullPage.css</li>
+</ul>
+
+<p>Example of initialization:</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">fullpage</span><span class="p">.</span><span class="nx">initialize</span><span class="p">(</span><span class="dl">'</span><span class="s1">#fullpage</span><span class="dl">'</span><span class="p">,</span> <span class="p">{</span>
+	<span class="na">anchors</span><span class="p">:</span> <span class="p">[</span><span class="dl">'</span><span class="s1">firstPage</span><span class="dl">'</span><span class="p">,</span> <span class="dl">'</span><span class="s1">secondPage</span><span class="dl">'</span><span class="p">,</span> <span class="dl">'</span><span class="s1">3rdPage</span><span class="dl">'</span><span class="p">,</span> <span class="dl">'</span><span class="s1">4thpage</span><span class="dl">'</span><span class="p">,</span> <span class="dl">'</span><span class="s1">lastPage</span><span class="dl">'</span><span class="p">],</span>
+	<span class="na">menu</span><span class="p">:</span> <span class="dl">'</span><span class="s1">#menu</span><span class="dl">'</span><span class="p">,</span>
+	<span class="na">css3</span><span class="p">:</span><span class="kc">false</span>
+<span class="p">});</span>
+</code></pre></div></div>
+
+<p>A more complex initialization with all options set could look like this:</p>
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">fullpage</span><span class="p">.</span><span class="nx">initialize</span><span class="p">(</span><span class="dl">'</span><span class="s1">#fullpage</span><span class="dl">'</span><span class="p">,</span> <span class="p">{</span>
+	<span class="c1">//navigation</span>
+	<span class="dl">'</span><span class="s1">menu</span><span class="dl">'</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span>
+	<span class="dl">'</span><span class="s1">anchors</span><span class="dl">'</span><span class="p">:[],</span>
+	<span class="dl">'</span><span class="s1">navigation</span><span class="dl">'</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span>
+	<span class="dl">'</span><span class="s1">navigationPosition</span><span class="dl">'</span><span class="p">:</span> <span class="dl">'</span><span class="s1">right</span><span class="dl">'</span><span class="p">,</span>
+	<span class="dl">'</span><span class="s1">navigationColor</span><span class="dl">'</span><span class="p">:</span> <span class="dl">'</span><span class="s1">#000</span><span class="dl">'</span><span class="p">,</span>
+	<span class="dl">'</span><span class="s1">navigationTooltips</span><span class="dl">'</span><span class="p">:</span> <span class="p">[],</span>
+	<span class="dl">'</span><span class="s1">slidesNavigation</span><span class="dl">'</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span>
+	<span class="dl">'</span><span class="s1">slidesNavPosition</span><span class="dl">'</span><span class="p">:</span> <span class="dl">'</span><span class="s1">bottom</span><span class="dl">'</span><span class="p">,</span>
+	<span class="dl">'</span><span class="s1">scrollBar</span><span class="dl">'</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span>
+
+	<span class="c1">//scrolling</span>
+	<span class="dl">'</span><span class="s1">css3</span><span class="dl">'</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span>
+	<span class="dl">'</span><span class="s1">scrollingSpeed</span><span class="dl">'</span><span class="p">:</span> <span class="mi">700</span><span class="p">,</span>
+	<span class="dl">'</span><span class="s1">autoScrolling</span><span class="dl">'</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span>
+	<span class="dl">'</span><span class="s1">easingcss3</span><span class="dl">'</span><span class="p">:</span> <span class="dl">'</span><span class="s1">ease</span><span class="dl">'</span><span class="p">,</span>
+	<span class="dl">'</span><span class="s1">loopHorizontal</span><span class="dl">'</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span>
+	<span class="dl">'</span><span class="s1">touchSensitivity</span><span class="dl">'</span><span class="p">:</span> <span class="mi">5</span><span class="p">,</span>
+
+	<span class="c1">//Accessibility</span>
+	<span class="dl">'</span><span class="s1">keyboardScrolling</span><span class="dl">'</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span>
+	<span class="dl">'</span><span class="s1">recordHistory</span><span class="dl">'</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span>
+
+	<span class="c1">//design</span>
+	<span class="dl">'</span><span class="s1">controlArrows</span><span class="dl">'</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span>
+
+	<span class="c1">//Custom selectors</span>
+	<span class="dl">'</span><span class="s1">sectionSelector</span><span class="dl">'</span><span class="p">:</span> <span class="dl">'</span><span class="s1">.section</span><span class="dl">'</span><span class="p">,</span>
+	<span class="dl">'</span><span class="s1">slideSelector</span><span class="dl">'</span><span class="p">:</span> <span class="dl">'</span><span class="s1">.slide</span><span class="dl">'</span><span class="p">,</span>
+
+
+	<span class="c1">//events</span>
+	<span class="dl">'</span><span class="s1">afterLoad</span><span class="dl">'</span><span class="p">:</span> <span class="kc">null</span><span class="p">,</span>
+	<span class="dl">'</span><span class="s1">onLeave</span><span class="dl">'</span><span class="p">:</span> <span class="kc">null</span><span class="p">,</span>
+	<span class="dl">'</span><span class="s1">afterRender</span><span class="dl">'</span><span class="p">:</span> <span class="kc">null</span><span class="p">,</span>
+	<span class="dl">'</span><span class="s1">afterResize</span><span class="dl">'</span><span class="p">:</span> <span class="kc">null</span><span class="p">,</span>
+	<span class="dl">'</span><span class="s1">afterReBuild</span><span class="dl">'</span><span class="p">:</span> <span class="kc">null</span><span class="p">,</span>
+	<span class="dl">'</span><span class="s1">afterSlideLoad</span><span class="dl">'</span><span class="p">:</span> <span class="kc">null</span><span class="p">,</span>
+	<span class="dl">'</span><span class="s1">onSlideLeave</span><span class="dl">'</span><span class="p">:</span> <span class="kc">null</span>
+<span class="p">});</span>
+</code></pre></div></div>
+
+<p>Functions has the same syntax and functionality than in the jQuery version, but they should be called like so:</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">//calling a function from the pure Javascript version of fullPage.js</span>
+<span class="nx">fullpage</span><span class="p">.</span><span class="nx">moveSectionDown</span><span class="p">();</span>
+</code></pre></div></div>
+
+<p>In contrast with the calls from the the jQuery version of fullPage.js:</p>
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">//calling a function from the jQuery version of fullPage.js</span>
+<span class="nx">$</span><span class="p">.</span><span class="nx">fn</span><span class="p">.</span><span class="nx">fullpage</span><span class="p">.</span><span class="nx">moveSectionDown</span><span class="p">();</span>
+</code></pre></div></div>
+
+
+      
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
+    <script>anchors.add();</script>
+  </body>
+</html>
