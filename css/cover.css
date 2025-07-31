@@ -264,6 +264,13 @@ text-align: center;
 .cn-text{
     font
 }
+
+.photo-col {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+
+}
 /*cover-nav font-size at media query*/
 
 /*works, blogs, and contacts*/
