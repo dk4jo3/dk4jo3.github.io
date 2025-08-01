@@ -101,6 +101,12 @@ body {
     font-weight: 500;
 }
 
+.design-keywords {
+    font-weight: 400;
+    color: #888;
+    font-size: 0.8em;
+}
+
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
 
@@ -290,7 +296,7 @@ text-align: center;
     /* IE8 proofing */
     
     font-weight: 700;
-    font-size: 0.8em;
+    font-size: 1.2em;
     text-align: center;
 }
 

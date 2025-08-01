@@ -78,7 +78,7 @@ blockquote {
     font-size: 1.2em;
     width: 100%;
     margin: auto;
-    font-family: Open Sans;
+    font-family: 'Source Sans 3', sans-serif;
     font-style: italic;
     color: #222;
     padding: 0.6em 60px 0.6em 60px;
@@ -110,8 +110,8 @@ blockquote span {
 
 small {
     text-align: left;
-    font-style: italic;
     font-family: 'Source Sans 3', sans-serif;
+    font-style: italic;
 }
 
 /*Photo flex container and items*/
@@ -203,10 +203,11 @@ small {
 }
 
 .caption {
-    color: #000
-    font-size: 0.8em;
+    font-size: .8em;
+    font-weight: 300;
     font: 'Source Sans 3', sans-serif;
-    padding-top: 0.5em
+    padding-top: 0.5em;
+    font-style: italic;
 }
 
 .content-copy > ul {
