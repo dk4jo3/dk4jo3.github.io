@@ -2,34 +2,6 @@
 <html lang="en">
 
 <head>
-    <!-- Global Site Tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-89453826-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
-
-        gtag('config', 'UA-89453826-1');
-    </script>
-    <script>
-        (function (h, o, t, j, a, r) {
-            h.hj = h.hj || function () {
-                (h.hj.q = h.hj.q || []).push(arguments)
-            };
-            h._hjSettings = {
-                hjid: 2357808,
-                hjsv: 6
-            };
-            a = o.getElementsByTagName('head')[0];
-            r = o.createElement('script');
-            r.async = 1;
-            r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
-            a.appendChild(r);
-        })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
-    </script>
     <meta charset="utf-8">
     <meta content="IE=edge" http-equiv="X-UA-Compatible">
     <meta content="width=device-width, initial-scale=1" name="viewport">
@@ -38,7 +10,7 @@
     <meta name="author" content="Ken Chen">
     <meta name="keywords" content="KC, kenchen, UX/UI, Interaction, Design">
     <link href="../../favicon.ico" rel="icon">
-    <title>Ken Chen's Portfolio - Business Check</title>
+    <title>Ken Chen's Design Portfolio - Business Check</title>
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
@@ -113,36 +85,36 @@
                             <table class="table content-table content-copy">
                                 <tbody>
                                     <tr>
-                                        <th scope="row">Role</th>
+                                        <th class="no-wrap">Role</th>
                                         <td>Senior Product Designer, acting as project lead (sole designer)</td>
                                     </tr>
                                     <tr>
-                                        <th scope="row">Leadership scope</th>
+                                        <th class="no-wrap">Leadership</th>
                                         <td>Set vision and trade-off strategy; facilitated Eng, QA, PM, and PPS
                                             alignment; mentored two junior designers on data-ops concepts</td>
                                     </tr>
                                     <tr>
-                                        <th scope="row">Problem</th>
+                                        <th class="no-wrap">Problem</th>
                                         <td>40 + client-specific Excel “business-check” scripts caused silent data
                                             errors, manual fixes, and zero client visibility: undercutting the org’s
                                             push toward self-serve analytics</td>
                                     </tr>
                                     <tr>
-                                        <th scope="row">Mandate</th>
+                                        <th class="no-wrap">Mandate</th>
                                         <td>Demonstrate how to bring the checks on-platform using the current team
                                             and the existing SQL engine: no extra headcount and no deep back-end
                                             rework.</td>
                                     </tr>
                                     <tr>
-                                        <th scope="row">Status</th>
+                                        <th class="no-wrap">Status</th>
                                         <td>The design package is ~80% drafted; the remaining specifications are
                                             pending and will be finalized when development resumes on the 2025
                                             roadmap.</td>
                                     </tr>
                                     <tr>
-                                        <th scope="row">Impact to date</th>
+                                        <th class="no-wrap">Impact to date</th>
                                         <td>
-                                            four teams behind a single hybrid UI ↔ SQL approach
+                                            Four teams behind a single hybrid UI ↔ SQL approach
                                             <br>direct Design↔PPS channel (first time)
                                             <br>roadmap-ready epics and reusable patterns now parked in the
                                             design system
@@ -160,7 +132,7 @@
 
                         <div class="col-md-8 col-md-offset-2 col-sm-12">
                             <h2 id="BS">1. Business & Stakes</h2>
-                            <p clas="content-copy text-left">
+                            <p class="content-copy text-left">
                                 The work began as a narrow request: “Can we drop a SQL-builder UI into the
                                 product? However, discovery revealed a larger issue: hundreds of off-platform scripts
                                 were causing silent data errors and consuming support resources. I reframed the effort
@@ -215,18 +187,17 @@
 
                                         </td>
                                     </tr>
-                                    <td>Zero transparency: neither PPS nor clients see check results until dashboards
+                                    <tr>
+                                        <td>Zero transparency: neither PPS nor clients see check results until dashboards
                                         break</td>
-                                    <td>In-product tracking and audit trail: capture pass/fail events, surface
+                                        <td>In-product tracking and audit trail: capture pass/fail events, surface
                                         trend charts, and establish a baseline data-quality metric for future
                                         optimisation
                                     </td>
                                     </tr>
                                     <tr>
                                         <td>Writing or fixing a check requires SQL fluency</td>
-                                        <td>40 + client-specific Excel “business-check” scripts caused silent data
-                                            errors, manual fixes, and zero client visibility: undercutting the org’s
-                                            push toward self-serve analytics</td>
+                                        <td>Enable non-technical users to create and edit checks without SQL expertise.</td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -499,7 +470,7 @@
                         <div class="col-md-8 col-md-offset-2 col-sm-12">
                             <h2 id="OW">4. Outcomes & Wins</h2>
                             <hr />
-                            <p clas="content-copy text-left">
+                            <p class="content-copy text-left">
                                 The work began as a narrow request: “Can we drop a SQL-builder UI into the
                                 product?”However, discovery revealed a larger issue: hundreds of off-platform
                                 scripts
@@ -509,7 +480,7 @@
                                 track every
                                 check, transforming a tooling request into a self-serve data-quality initiative.
                             </p>
-                            </dPiv>
+                            </div>
                         </div>
 
                         <div class="col-md-8 col-md-offset-2 col-sm-12">
@@ -524,26 +495,26 @@
                                         </tr>
                                     </thead>
                                     <tr>
-                                        <td>Org alignment</td>
+                                        <td class="no-wrap">Org alignment</td>
                                         <td>Weekly cross-discipline syncs maintained momentum; all teams
                                             signed off on the hybrid spec before the pause.</td>
                                     </tr>
                                     <tr>
-                                        <td>Design package for dev</td>
+                                        <td class="no-wrap">Design package for dev</td>
                                         <td>The design package is ~80% drafted. The remaining specifications
                                             are pending and will be finalized upon resumption of development
                                             on the 2025 roadmap.
                                     </tr>
 
                                     <tr>
-                                        <td>Stronger PPS partnership</td>
+                                        <td class="no-wrap">Stronger PPS partnership</td>
                                         <td>Built a direct working relationship with PPS analysts and
                                             leadership: looped into conversations and reviews alongside PMs
                                             for the first time. This helped establish trust and opened the
                                             door for faster access to context and feedback going forward.
                                     </tr>
                                     <tr>
-                                        <td>Leadership readiness</td>
+                                        <td class="no-wrap">Leadership readiness</td>
                                         <td>Led the end-to-end design process: from framing the problem and
                                             aligning cross-functional stakeholders to delivering
                                             implementation-ready specs. Drove the initiative forward across
@@ -558,7 +529,6 @@
                             </p>
                         </div>
                     </div>
-                </div>
 
                 <!-- 5 -->
                 <div class="page-wrapper">
@@ -566,13 +536,13 @@
                         <div class="col-md-8 col-md-offset-2 col-sm-12">
                             <h2 id="RN">5. Reflection & Next Steps</h2>
                             <hr />
-                            <p clas="content-copy text-left">
+                            <p class="content-copy text-left">
                                 <strong>What worked:</strong><br>
                                 Low-fidelity flowcharts helped align teams early by exposing technical constraints and
                                 clarifying workflows. Building early alliances with PMs, developers, and design peers
                                 provided crucial support for navigating complex decisions.
                             </p>
-                            <p clas="content-copy text-left">
+                            <p class="content-copy text-left">
                                 <strong>What I’d change:</strong><br>
                                 Spend more time upfront fostering balanced stakeholder dynamics, especially with expert
                                 teams like PPS, to avoid misalignment and ensure mutual understanding of priorities.

@@ -101,12 +101,6 @@ body {
     font-weight: 500;
 }
 
-.design-keywords {
-    font-weight: 400;
-    color: #888;
-    font-size: 0.8em;
-}
-
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
 
@@ -285,8 +279,14 @@ text-align: center;
     color: #595959;
     font-size: 1.6em;
     line-height: 1.6em;
-    margin-bottom: 1.2em;
+    margin-bottom: 1.6em;
 }
+
+.keywords {
+    font-weight: 400;
+    font-size: 0.8em;
+}
+
 
 
 /* Footer */
