@@ -181,7 +181,6 @@ h4 {
 
 }
 .masthead-nav > li {
-    text-transform: uppercase;
     display: inline-block;
 }
 .masthead-nav > li + li {
@@ -192,9 +191,6 @@ h4 {
     padding-left: 0;
     font-weight: bold;
     color: #888888;
-    letter-spacing: 1px;
-    /* IE8 proofing */
-    /* border-bottom: 2px solid transparent; */
 }
 .masthead-nav > li > a:hover,
 .masthead-nav > li > a:focus {
