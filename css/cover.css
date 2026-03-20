@@ -237,6 +237,7 @@ h4 {
     margin-top: 2%;
     line-height: 1.2em;
     text-align: center;
+    z-index: 999;
 } 
 
 .feeling-lucky,
